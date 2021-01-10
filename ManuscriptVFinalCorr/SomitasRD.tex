@@ -33,7 +33,7 @@
 \end{enumerate}
 
 	\begin{abstract}
-	The clock and wavefront model is one of the most accepted models for explaining the embryonic process of somitogenesis. According to this model, somitogenesis is based upon the interaction between a genetic oscillator, known as segmentation clock, and a moving wavefront, which provides the positional information indicating where each pair of somites is formed. Recently, \citet{Cotterell2015} reported a conceptually different mathematical model for somitogenesis. The authors called it a progressive oscillatory reaction-diffusion (PORD) model. In this model, somitogenesis is driven by short-range interactions and the posterior movement of the front is a local, emergent phenomenon, which is not controlled by global positional information. With the PORD model, it was possible to explain some experimental observations that are incompatible with the clock and wavefront model. However the PORD model has the disadvantage of being quite sensitive to fluctuations. In this work, we propose a modified version of the PORD model in order to overcome this and others inconveniences. By means of numerical simulations and a numerical stability analysis, we demonstrate that the modified PORD model achieves the robustness characteristic of somitogenesis, when the effect of the wavefront is included.
+	The clock and wavefront model is one of the most accepted models for explaining the embryonic process of somitogenesis. According to this model, somitogenesis is based upon the interaction between a genetic oscillator, known as segmentation clock, and a moving wavefront, which provides the positional information indicating where each pair of somites is formed. Recently, \citet{Cotterell2015} reported a conceptually different mathematical model for somitogenesis. The authors called it a progressive oscillatory reaction-diffusion (PORD) model. In this model, somitogenesis is driven by short-range interactions and the posterior movement of the front is a local, emergent phenomenon, which is not controlled by global positional information. With the PORD model, it was possible to explain some experimental observations that are incompatible with the clock and wavefront model. However the PORD model has the disadvantage of being quite sensitive to fluctuations and dependent on very specific initial conditions. In this work, we propose a hybrid model, between clock-and-wavefront and the PORD ones, and show that it overcomes the inconveniences of the original models.
 	\end{abstract}
 	
 	\section{Introduction}
@@ -133,23 +133,29 @@
 	initial conditions or intrinsic noise are present, a disordered pattern of gene
 	expression arises. This behavior resembles what happens with PSM cells that are
 	not under the influence of a wavefront, but contrasts with the observed
-	robustness of somite formation under normal conditions. We hypothesize from the
+	robustness of somite formation under normal conditions. Another important issue 
+	of the \citeauthor{Cotterell2015} model is that it requires very specific initial
+	conditions to give rise to a segmentation pattern. We hypothesize from the
 	above discussion that, although a wavefront is not strictly necessary for the
 	\citeauthor{Cotterell2015} model to generate a gene expression pattern
 	consistent with somitogenesis, the interaction with a wavefront is essential to
-	explain the observed robustness of this phenomenon. The present work is aimed at
+	explain the observed robustness of this phenomenon and to eliminate the dependence
+	on specific initial conditions. In other words, we argue 
+	that a hybrid model that accounts for the diffusion of the regulatory substances,
+	as well as for a global wavefront, may be have none of the disadvantages of the
+	original models. The present work is aimed at
 	testing this hypothesis, and discussing the corresponding biological
 	implications.
 	
-	The manuscript is organized as follows. In section 2 we develop an extension
-	of the \citeauthor{Cotterell2015} model, which is aimed at avoiding
-	some of the former model inconveniences. In section 3 we define the
-	parameter set where the dynamics of the non-diffusion system give place to a
-	limit cycle family. In section 4 we explain the numerical methods used as well
-	as the initial and boundary conditions. In section 5 we show results of the
-	simulations for each one of the selected conditions. Finally,
-	 we discuss the relevance of the
-	results obtained as well as the limitations of the model in section 6.
+	The manuscript is organized as follows. In section 2 we develop a hybrid
+	model between the PORD and the clock-and-wavefront models, 
+	which is aimed at avoiding the original models' inconveniences. In section 3 we 
+	define the parameter set where the dynamics of the non-diffusion system give place 
+	to a limit cycle family. In section 4 we explain the numerical methods used as 
+	well as the initial and boundary conditions. In section 5 we show results of the
+	simulations for each one of the selected conditions. Finally, we discuss the 
+	relevance of the results obtained as well as the limitations of the model in 
+	section 6.
 	
 	\section{Mathematical Model}
 	\label{model}
@@ -400,15 +406,18 @@
 	\citep{Sawada2001, Naiche2011} . In particular, the regularity of somite
 	formation has been demonstrated to be extremely robust to many different kinds
 	of perturbations on both the mesoderm tissue and the differentiation wavefront,
-	which is not explained by the current PORD model. 
+	which is not explained by the current PORD model. On the other hand, the PORD 
+	model demands a very specific initial condition to produce an ordered 
+	segmentation patters, but this is not biologically realistic.
 	
 	We hypothesize that somitogenesis robustness can be achieved via the interaction
-	between the gene network and a wavefront. This wavefront is originated by 
+	between the gene network and a wavefront, and that this will also eliminate 
+	the stringent dependence on a specific initial condition. This wavefront is originated by 
 	substances, like FGF8 (in what follows we refer to FGF8 only, but the
 	discussion applies to other substances as well, like Wnt3a), which are produced in the
 	embryo tail bud and diffuse to the rest of the PSM. In consequence, FGF8
-	concentration decreases in the posterior to anterior direction. On the other
-	hand, as the embryo grows, the tail bud recedes leaving PSM cells behind. Hence,
+	concentration decreases in the posterior to anterior direction. Furthermore, 
+	as the embryo grows, the tail bud recedes leaving PSM cells behind. Hence,
 	the spatial FGF8 distribution moves in the anterior to posterior direction, like
 	a wavefront, as time passes. In other words, we expect that a stable limit cycle 
 	emerges for large
@@ -462,17 +471,20 @@
 	instead of considering a constant value of~$\beta$, we assume that it is given
 	by 
 	\begin{gather}\label{eqbeta}
-	\beta(x, t) = \beta_0 \frac{K^n}{K^n + (x - v t)^n}\,.
+	\beta(x, t) = \beta_0 \frac{K^m}{K^m + (x - v t)^m}\,.
 	\end{gather}
-	Notice that this expression corresponds to a external regulation of gene A, which is a temporarily and spatially dependent profile that decays in a sigmoidal fashion in the posterior to anterior direction, and travels with speed
+	Notice that this expression corresponds to a external regulation of gene A, which 
+	is a temporarily and spatially dependent profile that decays in a sigmoidal 
+	fashion in the posterior to anterior direction, and travels with speed
 	$v>0$ in the opposite direction. That is, it mimics the behavior of the FGF8
-	profile. For the simulations in Fig.~\ref{Fig04} we set $K =0.9 $, $n = 6 $
+	profile. For the simulations in Fig.~\ref{Fig04} we set $K =0.9 $, $m = 6 $
 	(these values were also employed for the simulation in Fig.~\ref{Fig05}), and
 	considered two different speed values $v = 0.02 $, and $v = 0.04$. Observe that, in
 	both simulations, the pattern formation waves have the same periodicity, but the
 	regions corresponding somites are larger for the faster wave. This result agrees
 	with the experimental observation that somites are	larger when the velocity of 
-	FGF8 profile is increased \citep{Sawada2001}. 
+	FGF8 profile is increased \citep{Sawada2001}. Interestingly, we did not have to 
+	assume a specific initial condition for the correct segmentation pattern to arise.
 	
 	Finally, we performed simulations in which additive white noise was added to
 	both variables ($a$ and $r$), and confirmed the robustness of the system
@@ -500,27 +512,27 @@
 	\end{figure}
 	
 	To summarize, the results presented in the paragraphs above confirm the
-	hypothesis that a PORD model (modified to include diffusion of both the
-	repressor and the activator) undergoes a bifurcation from a stable to an 
+	hypothesis that a hybrid model, between the PORD and the clock-and-wavefront 
+	models, undergoes a bifurcation from a stable to an 
 	unstable limit cycle, as a result of its interaction with the
 	wavefront, and
 	that this bifurcation is enough to explain the observed robustness of
-	somitogenesis. To the best of our understanding, the modified PORD model has
-	a couple of quintessential features: it
-	explains why somitogenesis may occur in the absence of a wavefront and its
-	inherent somites irregular prompting, and how the process achieves robustness as
-	a consequence of the wavefront.
+	somitogenesis and the independence on a specific initial condition. 
+	To the best of our understanding, this hybrid model has
+	a couple of quintessential features: it explains why somitogenesis may occur in the 
+	absence of a wavefront (albeit in an irregular fashion), and how the process 
+	achieves robustness as a consequence of the wavefront.
 	
 	
 	\section{Concluding Remarks}
 	\label{conclu}
 	
-	We have studied a modified version of the somitogenesis PORD model originally
-	introduced by \citet{Cotterell2015}. The most important of the introduced
-	modifications is the assumption that the activator protein can also diffuse,
-	although with a much smaller diffusion coefficient than the repressor. With this
-	modification, the model undergoes a bifurcation, from a stable to an unstable
-	limit cycle, as the value of the parameter accounting for the background
+	We have studied a hybrid model for somitogenesis, which incorporates 
+	characteristics of the PORD (diffusion of the regulatory substances) and 
+	clock-and-wavefront (the wavefront) models. By assuming that both the activator 
+	and the repressor substances diffuse (the activator having a much smaller 
+	diffusion coefficient), the model undergoes a bifurcation, from a stable to an 
+	unstable limit cycle, as the value of the parameter accounting for the background
 	regulatory input of the activator decreases. From a biological perspective, the
 	bifurcation just described allows the model to explain why somites can form in
 	the absence of a wavefront (which traditional front and wavefront models failed
