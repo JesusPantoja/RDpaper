@@ -1,173 +1,320 @@
-\begin{thebibliography}{21}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Castillo et~al.(2016)Castillo, S{\'{a}}nchez-Gardu{\~{n}}o, and
-  Padilla]{Castillo2016}
-J.~A. Castillo, F.~S{\'{a}}nchez-Gardu{\~{n}}o, and P.~Padilla.
-\newblock {A Turing--Hopf Bifurcation Scenario for Pattern Formation on Growing
-  Domains}.
-\newblock \emph{Bulletin of Mathematical Biology}, 78\penalty0 (7):\penalty0
-  1410--1449, 2016.
-\newblock ISSN 15229602.
-\newblock \doi{10.1007/s11538-016-0189-6}.
-
-\bibitem[Cooke and Zeeman(1976)]{Cooke1976}
-J.~Cooke and E.~Zeeman.
-\newblock A clock and wavefront model for control of the number of repeated
-  structures during animal morphogenesis.
-\newblock \emph{Journal of Theoretical Biology}, 58\penalty0 (2):\penalty0
-  455--476, jan 1976.
-\newblock \doi{10.1016/s0022-5193(76)80131-2}.
-\newblock URL \url{https://doi.org/10.1016/s0022-5193(76)80131-2}.
-
-\bibitem[Cotterell et~al.(2015)Cotterell, Robert-Moreno, and
-  Sharpe]{Cotterell2015}
-J.~Cotterell, A.~Robert-Moreno, and J.~Sharpe.
-\newblock A local, self-organizing reaction-diffusion model can explain somite
-  patterning in embryos.
-\newblock \emph{Cell Systems}, 1\penalty0 (4):\penalty0 257--269, oct 2015.
-\newblock \doi{10.1016/j.cels.2015.10.002}.
-\newblock URL \url{https://doi.org/10.1016/j.cels.2015.10.002}.
-
-\bibitem[Dias et~al.(2014)Dias, de~Almeida, Belmonte, Glazier, and
-  Stern]{Dias2014}
-A.~S. Dias, I.~de~Almeida, J.~M. Belmonte, J.~A. Glazier, and C.~D. Stern.
-\newblock Somites without a clock.
-\newblock \emph{Science}, 343\penalty0 (6172):\penalty0 791--795, 2014.
-\newblock \doi{10.1126/science.1247575}.
-
-\bibitem[Dubrulle et~al.(2001)Dubrulle, McGrew, and
-  Pourqui{\'{e}}]{Dubrulle2001}
-J.~Dubrulle, M.~J. McGrew, and O.~Pourqui{\'{e}}.
-\newblock {FGF} signaling controls somite boundary position and regulates
-  segmentation clock control of spatiotemporal hox gene activation.
-\newblock \emph{Cell}, 106\penalty0 (2):\penalty0 219--232, 2001.
-\newblock \doi{10.1016/s0092-8674(01)00437-8}.
-
-\bibitem[Ermentrout(1987)]{Ermentrout1987}
-B.~Ermentrout.
-\newblock \emph{Simulating, Analyzing, and Animating Dynamical Systems: A Guide
-  to XPPAUT for Researchers and Students (Software, Environments and Tools)}.
-\newblock Society for Industrial and Applied Mathematics, 1987.
-\newblock ISBN 0898715067.
-
-\bibitem[Gibb et~al.(2010)Gibb, Maroto, and Dale]{Gibb2010}
-S.~Gibb, M.~Maroto, and J.~K. Dale.
-\newblock The segmentation clock mechanism moves up a notch.
-\newblock \emph{Trends in Cell Biology}, 20\penalty0 (10):\penalty0 593--600,
-  oct 2010.
-\newblock \doi{10.1016/j.tcb.2010.07.001}.
-\newblock URL \url{https://doi.org/10.1016/j.tcb.2010.07.001}.
-
-\bibitem[Lewis(2003)]{Lewis2003}
-J.~Lewis.
-\newblock Autoinhibition with transcriptional delay.
-\newblock \emph{Current Biology}, 13\penalty0 (16):\penalty0 1398--1408, 2003.
-\newblock \doi{10.1016/s0960-9822(03)00534-7}.
-
-\bibitem[Liu et~al.(2007)Liu, Liaw, and Maini]{liu}
-R.-T. Liu, S.-S. Liaw, and P.~K. Maini.
-\newblock {Oscillatory Turing Patterns in a Simple Reaction-Diffusion System}.
-\newblock \emph{J. Kor. Phys. Soc.}, 50\penalty0 (1):\penalty0 234--238, 2007.
-
-\bibitem[Maroto et~al.(2012)Maroto, Bone, and Dale]{Maroto2012}
-M.~Maroto, R.~A. Bone, and J.~K. Dale.
-\newblock Somitogenesis.
-\newblock \emph{Development}, 139\penalty0 (14):\penalty0 2453--2456, jun 2012.
-\newblock \doi{10.1242/dev.069310}.
-\newblock URL \url{https://doi.org/10.1242/dev.069310}.
-
-\bibitem[Monk(2003)]{Monk2003}
-N.~A. Monk.
-\newblock Oscillatory expression of hes1, p53, and {NF}-$\kappa$b driven by
-  transcriptional time delays.
-\newblock \emph{Current Biology}, 13\penalty0 (16):\penalty0 1409--1413, 2003.
-\newblock \doi{10.1016/s0960-9822(03)00494-9}.
-
-\bibitem[Murray(1989)]{Murray1989}
-J.~D. Murray.
-\newblock \emph{{Mathematical Biology}}.
-\newblock Oxford, second edition, 1989.
-\newblock ISBN 9783540572046.
-\newblock \doi{10.1007/978-3-662-08542-4}.
-
-\bibitem[Naiche et~al.(2011)Naiche, Holder, and Lewandoski]{Naiche2011}
-L.~A. Naiche, N.~Holder, and M.~Lewandoski.
-\newblock {FGF}4 and {FGF}8 comprise the wavefront activity that controls
-  somitogenesis.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 108\penalty0
-  (10):\penalty0 4018--4023, 2011.
-\newblock \doi{10.1073/pnas.1007417108}.
-
-\bibitem[Palmeirim et~al.(1997)Palmeirim, Henrique, Ish-Horowicz, and
-  Pourqui{\'{e}}]{Palmeirim1997}
-I.~Palmeirim, D.~Henrique, D.~Ish-Horowicz, and O.~Pourqui{\'{e}}.
-\newblock Avian hairy gene expression identifies a molecular clock linked to
-  vertebrate segmentation and somitogenesis.
-\newblock \emph{Cell}, 91\penalty0 (5):\penalty0 639--648, 1997.
-\newblock \doi{10.1016/s0092-8674(00)80451-1}.
-
-\bibitem[Pourqui{\'{e}}(2001)]{Pourquie2001}
-O.~Pourqui{\'{e}}.
-\newblock Vertebrate somitogenesis.
-\newblock \emph{Annual Review of Cell and Developmental Biology}, 17\penalty0
-  (1):\penalty0 311--350, 2001.
-\newblock \doi{10.1146/annurev.cellbio.17.1.311}.
-
-\bibitem[Pourqui{\'{e}}(2011)]{Pourquie2011}
-O.~Pourqui{\'{e}}.
-\newblock Vertebrate segmentation: From cyclic gene networks to scoliosis.
-\newblock \emph{Cell}, 145\penalty0 (5):\penalty0 650--663, may 2011.
-\newblock \doi{10.1016/j.cell.2011.05.011}.
-\newblock URL \url{https://doi.org/10.1016/j.cell.2011.05.011}.
-
-\bibitem[Santill{\'{a}}n(2008)]{Santillan2008b}
-M.~Santill{\'{a}}n.
-\newblock On the use of the hill functions in mathematical models of gene
-  regulatory networks.
-\newblock \emph{Mathematical Modelling of Natural Phenomena}, 3\penalty0
-  (2):\penalty0 85--97, 2008.
-\newblock \doi{10.1051/mmnp:2008056}.
-\newblock URL \url{https://doi.org/10.1051/mmnp:2008056}.
-
-\bibitem[Santill{\'{a}}n and Mackey(2008)]{Santillan2008}
-M.~Santill{\'{a}}n and M.~C. Mackey.
-\newblock A proposed mechanism for the interaction of the segmentation clock
-  and the determination front in somitogenesis.
-\newblock \emph{{PLoS} {ONE}}, 3\penalty0 (2):\penalty0 e1561, feb 2008.
-\newblock \doi{10.1371/journal.pone.0001561}.
-\newblock URL \url{https://doi.org/10.1371/journal.pone.0001561}.
-
-\bibitem[Sawada et~al.(2001)Sawada, Shinya, Jiang, Kawakami, Kuroiwa, and
-  Takeda]{Sawada2001}
-A.~Sawada, M.~Shinya, Y.~J. Jiang, A.~Kawakami, A.~Kuroiwa, and H.~Takeda.
-\newblock {Fgf/MAPK signalling is a crucial positional cue in somite boundary
-  formation}.
-\newblock \emph{Development}, 128\penalty0 (23):\penalty0 4873--4880, 2001.
-\newblock ISSN 09501991.
-
-\bibitem[Schr{\"{o}}ter et~al.(2012)Schr{\"{o}}ter, Ares, Morelli, Isakova,
-  Hens, Soroldoni, Gajewski, J{\"{u}}licher, Maerkl, Deplancke, and
-  Oates]{Schroter2012}
-C.~Schr{\"{o}}ter, S.~Ares, L.~G. Morelli, A.~Isakova, K.~Hens, D.~Soroldoni,
-  M.~Gajewski, F.~J{\"{u}}licher, S.~J. Maerkl, B.~Deplancke, and A.~C. Oates.
-\newblock {Topology and dynamics of the zebrafish segmentation clock core
-  circuit}.
-\newblock \emph{PLoS Biology}, 10\penalty0 (7):\penalty0 11, 2012.
-\newblock \doi{10.1371/journal.pbio.1001364}.
-
-\bibitem[Zavala and Santill{\'{a}}n(2012)]{Zavala2012}
-E.~Zavala and M.~Santill{\'{a}}n.
-\newblock An analysis of overall network architecture reveals an
-  infinite-period bifurcation underlying oscillation arrest in the segmentation
-  clock.
-\newblock \emph{Mathematical Modelling of Natural Phenomena}, 7\penalty0
-  (6):\penalty0 95--106, 2012.
-\newblock \doi{10.1051/mmnp/20127605}.
-\newblock URL \url{https://doi.org/10.1051/mmnp/20127605}.
-
-\end{thebibliography}
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{23}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Cotterell}\ \emph {et~al.}(2015)\citenamefont
+  {Cotterell}, \citenamefont {Robert-Moreno},\ and\ \citenamefont
+  {Sharpe}}]{Cotterell2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Cotterell}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Robert-Moreno}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Sharpe}},\ }\bibfield  {title} {\bibinfo {title} {A local, self-organizing
+  reaction-diffusion model can explain somite patterning in embryos},\ }\href
+  {https://doi.org/10.1016/j.cels.2015.10.002} {\bibfield  {journal} {\bibinfo
+  {journal} {Cell Systems}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo {pages}
+  {257} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maroto}\ \emph {et~al.}(2012)\citenamefont {Maroto},
+  \citenamefont {Bone},\ and\ \citenamefont {Dale}}]{Maroto2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Maroto}}, \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont {Bone}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont {Dale}},\
+  }\bibfield  {title} {\bibinfo {title} {Somitogenesis},\ }\href
+  {https://doi.org/10.1242/dev.069310} {\bibfield  {journal} {\bibinfo
+  {journal} {Development}\ }\textbf {\bibinfo {volume} {139}},\ \bibinfo
+  {pages} {2453} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cooke}\ and\ \citenamefont
+  {Zeeman}(1976)}]{Cooke1976}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Cooke}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Zeeman}},\
+  }\bibfield  {title} {\bibinfo {title} {A clock and wavefront model for
+  control of the number of repeated structures during animal morphogenesis},\
+  }\href {https://doi.org/10.1016/s0022-5193(76)80131-2} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Theoretical Biology}\ }\textbf {\bibinfo
+  {volume} {58}},\ \bibinfo {pages} {455} (\bibinfo {year} {1976})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Palmeirim}\ \emph {et~al.}(1997)\citenamefont
+  {Palmeirim}, \citenamefont {Henrique}, \citenamefont {Ish-Horowicz},\ and\
+  \citenamefont {Pourqui{\'{e}}}}]{Palmeirim1997}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Palmeirim}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Henrique}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Ish-Horowicz}},\ and\
+  \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Pourqui{\'{e}}}},\
+  }\bibfield  {title} {\bibinfo {title} {Avian hairy gene expression identifies
+  a molecular clock linked to vertebrate segmentation and somitogenesis},\
+  }\href {https://doi.org/10.1016/s0092-8674(00)80451-1} {\bibfield  {journal}
+  {\bibinfo  {journal} {Cell}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo
+  {pages} {639} (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pourqui{\'{e}}}(2001)}]{Pourquie2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Pourqui{\'{e}}}},\ }\bibfield  {title} {\bibinfo {title} {Vertebrate
+  somitogenesis},\ }\href {https://doi.org/10.1146/annurev.cellbio.17.1.311}
+  {\bibfield  {journal} {\bibinfo  {journal} {Annual Review of Cell and
+  Developmental Biology}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages}
+  {311} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gibb}\ \emph {et~al.}(2010)\citenamefont {Gibb},
+  \citenamefont {Maroto},\ and\ \citenamefont {Dale}}]{Gibb2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Gibb}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Maroto}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont {Dale}},\ }\bibfield
+  {title} {\bibinfo {title} {The segmentation clock mechanism moves up a
+  notch},\ }\href {https://doi.org/10.1016/j.tcb.2010.07.001} {\bibfield
+  {journal} {\bibinfo  {journal} {Trends in Cell Biology}\ }\textbf {\bibinfo
+  {volume} {20}},\ \bibinfo {pages} {593} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Pourqui{\'{e}}}(2011)}]{Pourquie2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Pourqui{\'{e}}}},\ }\bibfield  {title} {\bibinfo {title} {Vertebrate
+  segmentation: From cyclic gene networks to scoliosis},\ }\href
+  {https://doi.org/10.1016/j.cell.2011.05.011} {\bibfield  {journal} {\bibinfo
+  {journal} {Cell}\ }\textbf {\bibinfo {volume} {145}},\ \bibinfo {pages} {650}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dubrulle}\ \emph {et~al.}(2001)\citenamefont
+  {Dubrulle}, \citenamefont {McGrew},\ and\ \citenamefont
+  {Pourqui{\'{e}}}}]{Dubrulle2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Dubrulle}}, \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {McGrew}},\ and\ \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Pourqui{\'{e}}}},\ }\bibfield  {title} {\bibinfo {title} {{FGF} signaling
+  controls somite boundary position and regulates segmentation clock control of
+  spatiotemporal hox gene activation},\ }\href
+  {https://doi.org/10.1016/s0092-8674(01)00437-8} {\bibfield  {journal}
+  {\bibinfo  {journal} {Cell}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo
+  {pages} {219} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Naiche}\ \emph {et~al.}(2011)\citenamefont {Naiche},
+  \citenamefont {Holder},\ and\ \citenamefont {Lewandoski}}]{Naiche2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
+  {Naiche}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Holder}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Lewandoski}},\
+  }\bibfield  {title} {\bibinfo {title} {{FGF}4 and {FGF}8 comprise the
+  wavefront activity that controls somitogenesis},\ }\href
+  {https://doi.org/10.1073/pnas.1007417108} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {108}},\ \bibinfo {pages} {4018} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dias}\ \emph {et~al.}(2014)\citenamefont {Dias},
+  \citenamefont {de~Almeida}, \citenamefont {Belmonte}, \citenamefont
+  {Glazier},\ and\ \citenamefont {Stern}}]{Dias2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont
+  {Dias}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {de~Almeida}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Belmonte}}, \bibinfo
+  {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Glazier}},\ and\ \bibinfo
+  {author} {\bibfnamefont {C.~D.}\ \bibnamefont {Stern}},\ }\bibfield  {title}
+  {\bibinfo {title} {Somites without a clock},\ }\href
+  {https://doi.org/10.1126/science.1247575} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {343}},\ \bibinfo {pages}
+  {791} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Santill{\'{a}}n}\ and\ \citenamefont
+  {Mackey}(2008)}]{Santillan2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Santill{\'{a}}n}}\ and\ \bibinfo {author} {\bibfnamefont {M.~C.}\
+  \bibnamefont {Mackey}},\ }\bibfield  {title} {\bibinfo {title} {A proposed
+  mechanism for the interaction of the segmentation clock and the determination
+  front in somitogenesis},\ }\href
+  {https://doi.org/10.1371/journal.pone.0001561} {\bibfield  {journal}
+  {\bibinfo  {journal} {{PLoS} {ONE}}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {e1561} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zavala}\ and\ \citenamefont
+  {Santill{\'{a}}n}(2012)}]{Zavala2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Zavala}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Santill{\'{a}}n}},\ }\bibfield  {title} {\bibinfo {title} {An analysis of
+  overall network architecture reveals an infinite-period bifurcation
+  underlying oscillation arrest in the segmentation clock},\ }\href
+  {https://doi.org/10.1051/mmnp/20127605} {\bibfield  {journal} {\bibinfo
+  {journal} {Mathematical Modelling of Natural Phenomena}\ }\textbf {\bibinfo
+  {volume} {7}},\ \bibinfo {pages} {95} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Santill{\'{a}}n}(2008)}]{Santillan2008b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Santill{\'{a}}n}},\ }\bibfield  {title} {\bibinfo {title} {On the use of the
+  hill functions in mathematical models of gene regulatory networks},\ }\href
+  {https://doi.org/10.1051/mmnp:2008056} {\bibfield  {journal} {\bibinfo
+  {journal} {Mathematical Modelling of Natural Phenomena}\ }\textbf {\bibinfo
+  {volume} {3}},\ \bibinfo {pages} {85} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ermentrout}(1987)}]{Ermentrout1987}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Ermentrout}},\ }\href@noop {} {\emph {\bibinfo {title} {Simulating,
+  Analyzing, and Animating Dynamical Systems: A Guide to XPPAUT for Researchers
+  and Students (Software, Environments and Tools)}}}\ (\bibinfo  {publisher}
+  {Society for Industrial and Applied Mathematics},\ \bibinfo {year}
+  {1987})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sawada}\ \emph {et~al.}(2001)\citenamefont {Sawada},
+  \citenamefont {Shinya}, \citenamefont {Jiang}, \citenamefont {Kawakami},
+  \citenamefont {Kuroiwa},\ and\ \citenamefont {Takeda}}]{Sawada2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sawada}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Shinya}},
+  \bibinfo {author} {\bibfnamefont {Y.~J.}\ \bibnamefont {Jiang}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Kawakami}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Kuroiwa}},\ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Takeda}},\ }\bibfield  {title} {\bibinfo
+  {title} {{Fgf/MAPK signalling is a crucial positional cue in somite boundary
+  formation}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Development}\ }\textbf {\bibinfo {volume} {128}},\ \bibinfo {pages} {4873}
+  (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Goldbeter}\ and\ \citenamefont
+  {Pourqui{\'{e}}}(2008)}]{Goldbeter2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Goldbeter}}\ and\ \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Pourqui{\'{e}}}},\ }\bibfield  {title} {\bibinfo {title} {Modeling the
+  segmentation clock as a network of coupled oscillations in the notch, wnt and
+  {FGF} signaling pathways},\ }\href
+  {https://doi.org/10.1016/j.jtbi.2008.01.006} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Theoretical Biology}\ }\textbf {\bibinfo {volume}
+  {252}},\ \bibinfo {pages} {574} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hester}\ \emph {et~al.}(2011)\citenamefont {Hester},
+  \citenamefont {Belmonte}, \citenamefont {Gens}, \citenamefont {Clendenon},\
+  and\ \citenamefont {Glazier}}]{Hester2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont
+  {Hester}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Belmonte}}, \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Gens}},
+  \bibinfo {author} {\bibfnamefont {S.~G.}\ \bibnamefont {Clendenon}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Glazier}},\
+  }\bibfield  {title} {\bibinfo {title} {A multi-cell, multi-scale model of
+  vertebrate segmentation and somite formation},\ }\href
+  {https://doi.org/10.1371/journal.pcbi.1002155} {\bibfield  {journal}
+  {\bibinfo  {journal} {{PLoS} Computational Biology}\ }\textbf {\bibinfo
+  {volume} {7}},\ \bibinfo {pages} {e1002155} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Monk}(2003)}]{Monk2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
+  {Monk}},\ }\bibfield  {title} {\bibinfo {title} {Oscillatory expression of
+  hes1, p53, and {NF}-$\kappa$b driven by transcriptional time delays},\ }\href
+  {https://doi.org/10.1016/s0960-9822(03)00494-9} {\bibfield  {journal}
+  {\bibinfo  {journal} {Current Biology}\ }\textbf {\bibinfo {volume} {13}},\
+  \bibinfo {pages} {1409} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lewis}(2003)}]{Lewis2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Lewis}},\ }\bibfield  {title} {\bibinfo {title} {Autoinhibition with
+  transcriptional delay},\ }\href
+  {https://doi.org/10.1016/s0960-9822(03)00534-7} {\bibfield  {journal}
+  {\bibinfo  {journal} {Current Biology}\ }\textbf {\bibinfo {volume} {13}},\
+  \bibinfo {pages} {1398} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schr{\"{o}}ter}\ \emph {et~al.}(2012)\citenamefont
+  {Schr{\"{o}}ter}, \citenamefont {Ares}, \citenamefont {Morelli},
+  \citenamefont {Isakova}, \citenamefont {Hens}, \citenamefont {Soroldoni},
+  \citenamefont {Gajewski}, \citenamefont {J{\"{u}}licher}, \citenamefont
+  {Maerkl}, \citenamefont {Deplancke},\ and\ \citenamefont
+  {Oates}}]{Schroter2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Schr{\"{o}}ter}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ares}}, \bibinfo {author} {\bibfnamefont {L.~G.}\ \bibnamefont {Morelli}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Isakova}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Hens}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Soroldoni}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Gajewski}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {J{\"{u}}licher}}, \bibinfo {author}
+  {\bibfnamefont {S.~J.}\ \bibnamefont {Maerkl}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Deplancke}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.~C.}\ \bibnamefont {Oates}},\ }\bibfield  {title} {\bibinfo
+  {title} {{Topology and dynamics of the zebrafish segmentation clock core
+  circuit}},\ }\href {https://doi.org/10.1371/journal.pbio.1001364} {\bibfield
+  {journal} {\bibinfo  {journal} {PLoS Biology}\ }\textbf {\bibinfo {volume}
+  {10}},\ \bibinfo {pages} {11} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Murray}(1989)}]{Murray1989}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Murray}},\ }\href {https://doi.org/10.1007/978-3-662-08542-4} {\emph
+  {\bibinfo {title} {{Mathematical Biology}}}},\ \bibinfo {edition} {2nd}\
+  ed.,\ edited by\ \bibinfo {editor} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Levin}}, \bibinfo {editor} {\bibfnamefont {C.}~\bibnamefont {DeLisi}},
+  \bibinfo {editor} {\bibfnamefont {M.}~\bibnamefont {Feldman}}, \bibinfo
+  {editor} {\bibfnamefont {J.}~\bibnamefont {Keller}}, \bibinfo {editor}
+  {\bibfnamefont {R.~M.}\ \bibnamefont {May}}, \bibinfo {editor} {\bibfnamefont
+  {J.~D.}\ \bibnamefont {Murray}}, \bibinfo {editor} {\bibfnamefont
+  {A.}~\bibnamefont {Perelson}},\ and\ \bibinfo {editor} {\bibfnamefont
+  {L.~A.}\ \bibnamefont {Segel}}\ (\bibinfo {address} {Oxford},\ \bibinfo
+  {year} {1989})\ p.\ \bibinfo {pages} {783}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Castillo}\ \emph {et~al.}(2016)\citenamefont
+  {Castillo}, \citenamefont {S{\'{a}}nchez-Gardu{\~{n}}o},\ and\ \citenamefont
+  {Padilla}}]{Castillo2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Castillo}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {S{\'{a}}nchez-Gardu{\~{n}}o}},\ and\ \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Padilla}},\ }\bibfield  {title} {\bibinfo {title} {{A
+  Turing--Hopf Bifurcation Scenario for Pattern Formation on Growing
+  Domains}},\ }\href {https://doi.org/10.1007/s11538-016-0189-6} {\bibfield
+  {journal} {\bibinfo  {journal} {Bulletin of Mathematical Biology}\ }\textbf
+  {\bibinfo {volume} {78}},\ \bibinfo {pages} {1410} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2007)\citenamefont {Liu},
+  \citenamefont {Liaw},\ and\ \citenamefont {Maini}}]{liu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.-T.}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {S.-S.}\ \bibnamefont {Liaw}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.~K.}\ \bibnamefont {Maini}},\ }\bibfield
+  {title} {\bibinfo {title} {{Oscillatory Turing Patterns in a Simple
+  Reaction-Diffusion System}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Kor. Phys. Soc.}\ }\textbf {\bibinfo {volume} {50}},\ \bibinfo
+  {pages} {234} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\end{thebibliography}%

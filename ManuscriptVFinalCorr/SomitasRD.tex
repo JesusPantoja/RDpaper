@@ -1,14 +1,38 @@
-\documentclass[11pt]{article}
+\documentclass[%
+ preprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-2}
+
 \usepackage[utf8x]{inputenc}
 \usepackage{graphicx}
-\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
 \usepackage{textcomp}
-\usepackage[total={6.5in,8in}]{geometry}
 \usepackage{color}
-\usepackage{natbib}
-\bibliographystyle{abbrvnat}
-\setcitestyle{authoryear,open={(},close={)}}
-\usepackage{todonotes}
+%\usepackage{amsmath,amssymb}
+%\usepackage[total={6.5in,8in}]{geometry}
+%\usepackage{natbib}
+%\usepackage{todonotes}
+
+
+%\bibliographystyle{abbrvnat}
+%\setcitestyle{authoryear,open={(},close={)}}
 
 %%%%
 \newcommand{\vf}[2][noinline]{\todo[#1, color=red!30!white]{\texttt{VF}: #2}}
@@ -16,26 +40,30 @@
 \newcommand{\parcial}[2]{\dfrac{\partial#1}{\partial#2}}
 %%%%
 
+
+\begin{document}
+
+
 \title{Reaction-diffusion model for the arrest of oscillations in the
 	somitogenesis segmentation clock}
 
-\author{Jes\'us Pantoja-Hern\'andez\textsuperscript{1}, V\'ictor F. Bre\~na-Medina\textsuperscript{2}, Mois\'es Santill\'an\textsuperscript{1}}
+\author{Jes\'us Pantoja-Hern\'andez}
+\affiliation{Centro de Investigaci\'on y de Estudios Avanzados del IPN, Unidad Monterrey, Vía del Conocimiento 201, Parque PIIT, 66628 Apodaca NL, México}
 
-\date{\today}
+\author{V\'ictor F. Bre\~na-Medina}
+\affiliation{Department of Mathematics, ITAM, Río Hondo 1, Ciudad de México 01080, México}
 
-\begin{document}
-	\maketitle
-	
-	
-\begin{enumerate}
-\item Centro de Investigaci\'on y de Estudios Avanzados del IPN, Unidad Monterrey, Vía del Conocimiento 201, Parque PIIT, 66628 Apodaca NL, México.
-\item Department of Mathematics, ITAM, Río Hondo 1, Ciudad de México 01080, México.
-\end{enumerate}
+\author{Mois\'es Santill\'an}
+\affiliation{Centro de Investigaci\'on y de Estudios Avanzados del IPN, Unidad Monterrey, Vía del Conocimiento 201, Parque PIIT, 66628 Apodaca NL, México}
+
 
 	\begin{abstract}
 	The clock and wavefront model is arguably the most widely accepted model for explaining the embryonic process of somitogenesis. According to this model, somitogenesis is based upon the interaction between a genetic oscillator, known as segmentation clock, and a moving wavefront, which provides the positional information indicating where each pair of somites is formed. Recently, \citet{Cotterell2015} reported a conceptually different mathematical model for somitogenesis. The authors called it a progressive oscillatory reaction-diffusion (PORD) model. In this model, somitogenesis is driven by short-range interactions and the posterior movement of the front is a local, emergent phenomenon, which is not controlled by global positional information. With the PORD model, it was possible to explain some experimental observations that are incompatible with the clock and wavefront model. However the PORD model has some important disadvantages of its own. Namely, it is quite sensitive to fluctuations and depends on very specific initial conditions (which are not biologically realistic). In this work, we propose a hybrid model, between the clock-and-wavefront and the PORD ones, and show that it able to overcome most of the inconveniences of the originating models.
 	\end{abstract}
 	
+	\maketitle
+
+
 	\section{Introduction}
 	\label{intro}
 	
@@ -128,19 +156,20 @@
 	in the intricate transcription-factor regulatory network of the genes under the
 	Wnt, Notch and FGF pathways \citep{Gibb2010, Zavala2012}.
 	
-	In opposition to its multiple virtues, the \citeauthor{Cotterell2015} model is
-	quite sensitive to fluctuations. For instance, when random perturbations of
-	initial conditions or intrinsic noise are present, a disordered pattern of gene
-	expression arises. This behavior resembles what happens with PSM cells that are
-	not under the influence of a wavefront, but contrasts with the observed
-	robustness of somite formation under normal conditions. Another important issue 
+	In opposition to its multiple virtues, the \citeauthor{Cotterell2015} model 
+	has some important issues of its own. For instance, it is
+	quite sensitive to fluctuations. This implies that a disordered pattern of gene
+	expression arises when small-amplitude random perturbations of initial conditions 
+	or intrinsic noise are present. This behavior resembles what happens with PSM 
+	cells that are not under the influence of a wavefront, but contrasts with the 
+	observed robustness of somite formation under normal conditions. Another issue 
 	of the \citeauthor{Cotterell2015} model is that it requires very specific initial
 	conditions (which are not biologically realistic) 
 	to give rise to a segmentation pattern. We hypothesize from the
 	above discussion that, although a wavefront is not strictly necessary for the
 	\citeauthor{Cotterell2015} model to generate a gene expression pattern
 	consistent with somitogenesis, the interaction with a wavefront is essential to
-	explain the observed robustness of this phenomenon and to eliminate the dependence
+	explain the observed robustness of this phenomenon and to eliminate its dependence
 	on specific initial conditions. In other words, we argue 
 	that a hybrid model that accounts for the diffusion of the regulatory substances
 	(as in the PORD model), as well as for a global wavefront that interacts
@@ -345,7 +374,8 @@
 	variance 1. To solve this system of stochastic partial differential equations we
 	employed the Euler-Maruyama method, implemented in \texttt{Julia}.
 	
-	We employed different initial conditions along the present work and so, they are specified before every simulation.
+	We employed different initial conditions along the present work and they are 
+	specified along each simulation.
 
 	\section{Results}
 	\label{res}
@@ -364,8 +394,12 @@
 	\end{gather}
 	That is, the system is assumed to be initially homogeneous, except for a
 	perturbation at the anterior extreme of the observation window.	
-	The simulation results are
-	shown in Fig.~\ref{Fig02}A. Observe that an oscillatory behavior
+	The simulation results are shown in Fig.~\ref{Fig02}A. To better visualize 
+	the temporal evolution of the animations in this work, we created 
+	animations with the data sets, here plotted as heat maps, and put them 
+	in the reservoir 
+	\url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}. 
+	Observe that an oscillatory behavior
 	gradually gives rise to a steady pattern consisting of alternated high and low
 	gene-expression regions. Notice as well that the pattern formation dynamics start at
 	the initial perturbation position, and propagate with constant speed. The
@@ -394,30 +428,32 @@
 			0.05$; (B) $r(x, 0) = a(x, 0)=0$ for all $x\in[0,1]$; (C) $r(x, 0)=0$ and $a(x,
 			0)=0$ for all $x\in[0,1]$ and $a(x',0)=0.05$ at $x'=0.325, 0.675, 0.9975$.
 			Parameter values were set as follows: $k_1=0.05$, $k_2=0.01$, $k_3=2$, $n=3$,
-			$\beta=0.5$, $d_a=0$, and $d_r=2.5\times10^{-3}$.}
+			$\beta=0.5$, $d_a=0$, and $d_r=2.5\times10^{-3}$. Animations with the same 
+			data sets used to plot the heat-maps in this figure can be found in the 
+			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{Fig02}
 	\end{figure}
 	
 	The results described in the previous paragraph are consistent with the reported
 	experimental observations that somites can form in the absence of a wavefront
-	(recall that somite formation 
-	in the absence of a wavefront is incompatible with the clock and wavefront paradigm).
-	As a matter of fact, they may explain why somites form almost simultaneously and
-	irregularly; i.e. any initial perturbation in the mesoderm tissue would
-	rapidly originate a somite boundary, and the emerging pattern formation wave would
-	almost immediately collide with neighboring waves. 
-	On the other hand, even though a wavefront is not strictly necessary for the 
-	formation of somites, there are several reports that confirm its importance
-	\citep{Sawada2001, Naiche2011} . In particular, the regularity of somite
-	formation has been demonstrated to be extremely robust to many different kinds
-	of perturbations on both the mesoderm tissue and the differentiation wavefront,
-	and this robustness cannot be explained by PORD models. Moreover, PORD 
-	models demand very specific initial conditions to produce ordered 
-	segmentation patterns, but this is not biologically realistic.
+	(recall that somite formation in the absence of a wavefront is incompatible with 
+	the clock and wavefront paradigm). As a matter of fact, they may explain why somites 
+	form almost simultaneously and irregularly; i.e. any initial perturbation in the 
+	mesoderm tissue would rapidly originate a somite boundary, and the emerging pattern 
+	formation wave would almost immediately collide with neighboring waves. 
 	
-	We hypothesize that somitogenesis robustness can be achieved via the interaction
+	On the other hand, the results in Fig.~\ref{Fig02}C disagree with the observed 
+	robustness of somitogenesis to many different kinds of perturbations on both the 
+	mesoderm tissue and the differentiation wavefront. Moreover, PORD models demand very 
+	specific initial conditions to produce ordered segmentation patterns, but this is not 
+	biologically realistic. Taking into account that there are several reports that confirm 
+	the importance of the differentiation wavefront \citep{Sawada2001, Naiche2011} we 
+	hypothesize that, although it is not strictly necessary in PORD models to generate 
+	a segmentation pattern, somitogenesis robustness can be achieved via the interaction
 	between the gene network and a wavefront, and that this will also eliminate 
-	the stringent dependence on a specific initial condition. This wavefront is originated by 
+	the stringent dependence on a specific initial condition. 
+	
+	The differentiation wavefront is originated by 
 	substances, like FGF8 (in what follows we refer to FGF8 only, but the
 	discussion applies to other substances as well, like Wnt3a), which are produced in the
 	embryo tail bud and diffuse to the rest of the PSM. In consequence, FGF8
@@ -445,7 +481,9 @@
 			initial conditions for $a$ were selected from random uniform distributions in
 			the interval $[0, 0.1]$, whereas we set $r(x, 0) = 0$ for all $x\in[0,1]$.
 			Parameter values were set as follows: $k_1=0.05$, $k_2=0.01$, $k_3=2$, $n=3$, $d_a =
-			5\times10^{-5}$ and $d_r=2.5\times10^{-3}$.}
+			5\times10^{-5}$ and $d_r=2.5\times10^{-3}$. Animations with the same 
+			data sets used to plot the heat-maps in this figure can be found in the 
+			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{Fig03}
 	\end{figure}
 	
@@ -462,12 +500,14 @@
 			speed  $v=0.04$. Initial conditions for~$a$ consists of random uniform
 			distributions in the interval $[0, 0.1]$, whereas $r(x, 0) = 0$ for all
 			$x\in[0,1]$. Parameter values were set as follows: $k_1=0.05$, $k_2=0.01$, $k_3=2$,
-			$n=3$, $d_a = 5\times10^{-5}$ and~$d_r=2.5\times10^{-3}$.}
+			$n=3$, $d_a = 5\times10^{-5}$ and~$d_r=2.5\times10^{-3}$. Animations with the same 
+			data sets used to plot the heat-maps in this figure can be found in the 
+			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{Fig04}
 	\end{figure}
 	
-	In Appendix, \ref{app:bif} we analyze the stability of the PDE system when 
-	depending of $\beta$ and $d_a$ parameters, and found that for a fixed value 
+	In Appendix, \ref{app:bif} we analyzed the stability of the PDE system when 
+	depending on parameters $\beta$ and $d_a$, and found that for a fixed value 
 	for $d_a=5\times10^{-5}$ the system undergoes a bifurcation	from a stable to 
 	an unstable limit cycle as the value of $\beta$ decreases. To illustrate these 
 	findings, we present in Fig.~\ref{Fig03} the results of two
@@ -494,6 +534,15 @@
 	conditions, but the same results are obtained starting from uniform initial 
 	conditions. 
 	
+	Interestingly, the frequency of oscillations depends on the value of parameter 
+	$\beta$ in the present model. Indeed,we verified (results not shown) that 
+	the frequency decreases together with $\beta$. This implies that, in a simulations 
+	with a traveling wavefront, anterior regions of the PSM oscillate at a lower 
+	frequency than posterior regions, in agreement with experimental observations 
+	\citep{Goldbeter2008, Hester2011}. This behavior can be appreciated in the 
+	simulations associated to Fig.~\ref{Fig04}, which can be found in the reservoir 
+	\url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.
+	
 	We further performed simulations in which additive white noise was added to
 	both variables ($a$ and $r$), and confirmed the robustness of the system
 	behavior to this kind of variability. As can be seen in Fig.~\ref{Fig05},
@@ -501,8 +550,8 @@
 	variation is $c_v = 0.05$ (relative to the corresponding variable 
 	steady-state value), somite formation proceeds in a very precise way,
 	despite the relatively large fluctuations in the gene expression level. On the
-	contrary, when $c_v = 0.1$, although somites continue sequentially emerging, the
-	periodicity of somitogenesis is lost, as well as the regularity of somite sizes.
+	contrary, when $c_v = 0.1$, although somites continue emerging, they do it in 
+	a disordered and non-periodical fashion.
 	
 	\begin{figure}[t!]
 		\centering
@@ -516,7 +565,9 @@
 			conditions for $A$ consists of random uniform distributions in the interval $[0,
 			0.1]$, whereas $R(x, 0) = 0$ for all $x\in[0,1]$. Parameter values were set as
 			follows: $k_1=0.05$, $k_2=0.01$, $k_3=2$, $n=3$,  $d_a = 5\times10^{-5}$
-			and~$d_r=2.5\times10^{-3}$.}
+			and~$d_r=2.5\times10^{-3}$. Animations with the same 
+			data sets used to plot the heat-maps in this figure can be found in the 
+			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{Fig05}
 	\end{figure}
 	
@@ -526,7 +577,7 @@
 	unstable limit cycle, as a result of its interaction with the
 	wavefront, and
 	that this bifurcation is enough to explain the observed robustness of
-	somitogenesis and the independence on a specific initial condition. 
+	somitogenesis and the independence of specific initial condition. 
 	To the best of our understanding, this hybrid model has
 	a couple of quintessential features: it explains why somitogenesis may occur in the 
 	absence of a wavefront (albeit in an irregular fashion), and how the process 
@@ -712,7 +763,9 @@ The four kinds of patterns depicted in Fig.~\ref{FigB01} are classified accordin
 		\includegraphics[width=3.2in]{Figures/ApFigure03b}\\
 		\includegraphics[width=3.2in]{Figures/ApFigure03c}
 		\includegraphics[width=3.2in]{Figures/ApFigure03d}\\
-		\caption{Time-step simulations of~\eqref{eqnB01234} with homogeneous Neumann boundary conditions and parameter set values as in region I and II plotted in~Fig.~\ref{FigB01}. An azimuthal view of the spatio-temporal solution shows the pattern formation dynamics for a Turing type (panel a) and a Turing-Hopf type (panel c). Temporal evolution for each case in the left-hand side column of the activator and repressor at $x=0.6125$ and $x=0.4875$ (dashed lines in panels a and c) are shown in panels (b) and (d), respectively. Initial conditions were taken as a perturbation of the steady state accordingly to regions~I~and~II, respectively, of the parameter space in Fig.~\ref{FigB01}.}
+		\caption{Time-step simulations of~\eqref{eqnB01234} with homogeneous Neumann boundary conditions and parameter set values as in region I and II plotted in~Fig.~\ref{FigB01}. An azimuthal view of the spatio-temporal solution shows the pattern formation dynamics for a Turing type (panel a) and a Turing-Hopf type (panel c). Temporal evolution for each case in the left-hand side column of the activator and repressor at $x=0.6125$ and $x=0.4875$ (dashed lines in panels a and c) are shown in panels (b) and (d), respectively. Initial conditions were taken as a perturbation of the steady state accordingly to regions~I~and~II, respectively, of the parameter space in Fig.~\ref{FigB01}. Animations with the same 
+			data sets used to plot the heat-maps in this figure can be found in the 
+			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{FigB03}
 	\end{figure}
 	
@@ -723,7 +776,9 @@ The four kinds of patterns depicted in Fig.~\ref{FigB01} are classified accordin
 		%\includegraphics[width=3.2in]{Figures/ApFigure04c}
 		%\includegraphics[width=3.2in]{Figures/ApFigure04d}
 		\caption{Simulations with parameter $\beta$ as function of $x$ and $t$ as indicated in the text. For (a), the initial conditions are perturbations of the steady state,
-		while in (b) the initial conditions are the final state of (a).}
+		while in (b) the initial conditions are the final state of (a). Animations with the same 
+			data sets used to plot the heat-maps in this figure can be found in the 
+			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{FigB04}
 	\end{figure}
 
