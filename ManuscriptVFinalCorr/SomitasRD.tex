@@ -76,7 +76,7 @@
 	embryos of a single species. From this, and other reasons, scientists have been
 	attracted to somitogenesis for decades. One of the earliest conceptual attempts
 	to explain this regularity is the so-called clock and wavefront model,
-	originally proposed by \citet{Cooke1976}. According to this model, somitogenesis
+	originally proposed by Cooke and Zeeman~\citep{Cooke1976}. According to this model, somitogenesis
 	occurs due to the interaction between: (i) autonomous oscillations of a network
 	of genes and gene products, which causes presomitic-mesoderm cells to oscillate
 	between a permissive and a non-permissive state, in a consistently (clock-like)
@@ -103,13 +103,13 @@
 	form in the absence of Wnt or FGF gradients, albeit in a disorderly
 	fashion \citep{Naiche2011,Dias2014}.
 	
-	Recently, \citet{Cotterell2015} introduced a novel mathematical model for
+	Recently, Cotterell {\em et al.}~\citep{Cotterell2015} introduced a novel mathematical model for
 	somitogenesis. Contrarily to the clock and wavefront model, in the model by
-	\citeauthor{Cotterell2015}---which the authors call a progressive oscillatory
+	Cotterell {\em et al.}---which the authors call a progressive oscillatory
 	reaction-diffusion (PORD) system---somitogenesis is driven by short-range
 	interactions. Hence, the posterior movement of the front is a local, emergent
 	phenomenon, that is not controlled by global positional information. As shown by
-	\citeauthor{Cotterell2015}, their PORD model is compatible with several
+	Cotterell {\em et al.}~, their PORD model is compatible with several
 	important features of somitogenesis (like size regulation), that former
 	reaction-diffusion models were unable to explain. Furthermore, the PORD model
 	makes predictions regarding FGF-inhibition and tissue-cutting experiments that
@@ -126,18 +126,18 @@
 			$\beta$ represents external regulation of gene \textit{A} via a wavefront
 			substance. Dashed lines correspond to passive diffusion into the extracellular
 			medium. The diffusion process depicted by the blue arrow was not
-			originally included in the \citeauthor{Cotterell2015} model, but is 
+			originally included in the Cotterell {\em et al.}~model, but is 
 			included in the modified model version studied in this work.}
 		\label{Fig01}
 	\end{figure}
 	
-	At the core of the \citeauthor{Cotterell2015} model there is a gene regulatory
+	At the core of the Cotterell {\em et al.}~model there is a gene regulatory
 	motif schematically depicted in Fig. \ref{Fig01}. In this network, a
-	hypothetical gene codes for an activator protein (A), which enhances its own
+	hypothetical gene codes for an activator protein~(A), which enhances its own
 	expression, as well as that of another gene that codes for a hypothetical
-	repressor protein (R). In turn, the repressor protein down-regulates the gene
+	repressor protein~(R). In turn, the repressor protein down-regulates the gene
 	coding for the activator, and is able to diffuse into the extracellular medium
-	and affect neighboring cells. \citeauthor{Cotterell2015} did not identify the
+	and affect neighboring cells. Cotterell {\em et al.}~did not identify the
 	network genes, but showed that in case it existed, the gene network in Fig.
 	\ref{Fig01} can explain most of the experimental observations regarding
 	somitogenesis. In particular, with the correct parameter values, such gene
@@ -145,29 +145,27 @@
 	included, it gives rise to a stationary pattern of gene expression like that
 	observed in somitogenesis, even in the absence of a FGF wavefront.
 	
-	Even though the hypothetical genes in the \citeauthor{Cotterell2015} model have
+	Even though the hypothetical genes in the Cotterell {\em et al.}~model have
 	not been identified, we find this model interesting for the following reasons:
-	(i) as far as we have observed, it accounts for some important features of
-	somitogenesis that traditional clock and wavefront models fail to explain; (ii)
-	a gene network with a similar architecture as that of Fig. \ref{Fig01}---albeit
+	(i)~as far as we have observed, it accounts for some important features of
+	somitogenesis that traditional clock and wavefront models fail to explain; (ii)~a gene network with a similar architecture as that of Fig. \ref{Fig01}---albeit
 	with a different dynamic behavior---has been invoked to explain oscillation
-	arrest in somitogenesis \citep{Santillan2008, Zavala2012}; and finally, (iii)
-	the architecture of the gene network in Fig. \ref{Fig01} is an ubiquitous motif
+	arrest in somitogenesis \citep{Santillan2008, Zavala2012}; and finally, (iii)~the architecture of the gene network in Fig. \ref{Fig01} is an ubiquitous motif
 	in the intricate transcription-factor regulatory network of the genes under the
 	Wnt, Notch and FGF pathways \citep{Gibb2010, Zavala2012}.
 	
-	In opposition to its multiple virtues, the \citeauthor{Cotterell2015} model 
+	In opposition to its multiple virtues, the Cotterell {\em et al.}~model 
 	has some important issues of its own. For instance, it is
 	quite sensitive to fluctuations. This implies that a disordered pattern of gene
 	expression arises when small-amplitude random perturbations of initial conditions 
 	or intrinsic noise are present. This behavior resembles what happens with PSM 
 	cells that are not under the influence of a wavefront, but contrasts with the 
 	observed robustness of somite formation under normal conditions. Another issue 
-	of the \citeauthor{Cotterell2015} model is that it requires very specific initial
+	of the Cotterell {\em et al.}~model is that it requires very specific initial
 	conditions (which are not biologically realistic) 
 	to give rise to a segmentation pattern. We hypothesize from the
 	above discussion that, although a wavefront is not strictly necessary for the
-	\citeauthor{Cotterell2015} model to generate a gene expression pattern
+	Cotterell {\em et al.}~model to generate a gene expression pattern
 	consistent with somitogenesis, the interaction with a wavefront is essential to
 	explain the observed robustness of this phenomenon and to eliminate its dependence
 	on specific initial conditions. In other words, we argue 
@@ -191,7 +189,7 @@
 	\label{model}
 	
 	In this section, we introduce a modified version of the
-	\citeauthor{Cotterell2015} model. As the functions taken into account in the
+	Cotterell {\em et al.}~model. As the functions taken into account in the
 	original model are unrealistic from a biochemical point of view, we propose key
 	modifications, which consist in replacing the gene-expression regulatory
 	functions and introducing a diffusion transport process for both activator and
@@ -220,7 +218,7 @@
 	To take into account the roles of the activator and the repressor, $P_A(A, R)$
 	must be a monotonic increasing (decreasing) function of $A$ ($R$), while
 	$P_R(A)$ ought to be a monotonic increasing function of $A$. Indeed,
-	\citet{Cotterell2015} proposed the following functions:
+	Cotterell {\em et al.}~\citep{Cotterell2015} proposed the following functions:
 	\begin{subequations}\label{eq034}
 		\begin{gather}
 		P_A(A, R) = \displaystyle \Phi \left(
@@ -231,19 +229,17 @@
 	\end{subequations}
 	where $l_1$, $l_2$, and $l_3$ define the strengths of regulatory interactions
 	between \textit{A} and \textit{R}, and $\beta$ is the background regulatory
-	input of \textit{A}. To prevent negative values, \citeauthor{Cotterell2015}
-	introduced the function $\Phi(x) = x.H(x)$, where $H(x)$ is the standard
+	input of \textit{A}. To prevent negative values, Cotterell {\em et al.}~introduced the function $\Phi(x) = x.H(x)$, where $H(x)$ is the standard
 	Heaviside function ($H(x) = 1$ for $x \geq 0$ and $H(x) = 0$ for $x < 0$).
 	
 	Even though the function $P_A(A, R)$ defined in (\ref{eq03}) fulfills the
 	requirement of being a monotonic decreasing function of $R$ and a monotonic
 	increasing function of $A$, it shows features that are biologically challenging:
 	\begin{itemize}
-		\item There is neither biological nor biochemical motivation for the introduction of function
-		$\Phi$.
+		\item There is neither biological nor biochemical motivation for the introduction of function~$\Phi$.
 		\item Function $\Phi(x)$ is non smooth at the origin. This feature is
 		unusual in biologically inspired mathematical models, and may cause unexpected
-		complications while studying the dynamical system.
+		complications while studying the dynamical system; for further discussions of oscillatory behaviors on non-smooth dynamical systems, see for instance~\cite{han01,castillo01}.
 		\item Since the term $l_2 R$ appears with negative sign in the denominator of
 		the argument of function $\Phi$, in the right hand side of Eq. (\ref{eq03}),
 		function $P_A(A, R)$ may be divergent for certain values of $A$ and $R$.
@@ -320,10 +316,9 @@
 	the parameter intervals (see Table \ref{Tab01}) for which the system shows
 	sustained oscillations in the absence of diffusion, which is crucial to set the
 	periodicity of somitogenesis. In our simulations, we consider parameter values in
-	the middle of the intervals reported in Table \ref{Tab01}. Following
+	the middle of the intervals reported in Table \ref{Tab01}. Upon following
 	\citep{Cotterell2015}, we fixed $n_3 = \mu = 1$, and assumed that $n = n_1 =
-	n_2$. After this, the only free parameters in the model are the diffusion
-	coefficients. 
+	n_2$, to then leave the diffusion coefficients as the only free parameters in the model.
 	
 	\begin{table}[h] 
 		\centering
@@ -606,7 +601,7 @@
 	regulation \citep{Monk2003, Lewis2003}. This claim is supported by multiple
 	experimental reports, which have elucidated some of the underlying regulatory
 	mechanisms \citep{Schroter2012}. In contrast, the present and the
-	\citet{Cotterell2015} models not only rely on a different gene network
+	Cotterell~{\em et al.}~\citep{Cotterell2015} models not only rely on a different gene network
 	architecture to generate oscillations, but the genes in the network are
 	hypothetical. From this perspective, the weight of experimental evidence seems
 	to favor clock and wavefront models. Nonetheless, upon taking this into
@@ -667,7 +662,7 @@ JP-H thanks CONACYT-México for granting him a doctoral scholarship. VFBM thanks
 	\begin{gather*}
 	r^* = \frac{a^*}{k_3+a^*}\,.
 	\end{gather*}
-	In other words, the existence of at least one steady-state in the first quadrant is guaranteed. We can straightforwardly  prove, from the Poincare-Bendixon theorem, that a limit-cycle family emerges as a result of this steady-state undergoing a Hopf bifurcation (HB). In order to disclose this implication, we performed a numerical continuation by using the algorithms implemented in XPPAUT (Ermentrout, 1987). The resulting bifurcation diagrams obtained by slowly varying each parameter of system~\eqref{eqA12} are depicted in Fig.~\ref{FigA01}. Notice that the system undergoes HBs for all parameters values in Table~\ref{Tab01}. In Fig.~\ref{FigA01}(a), a single HB for parameter $\beta$ takes place, where periodic orbits vanish at the bifurcation point HB. This suggests that the lower the $\beta$-input value, the larger the amplitude and the longer the period of stable orbits for the homogeneous system; and that no periodic orbits occur for $\beta\gg1$, nonetheless. In contrast, as is shown in Figs.~\ref{FigA01}(b)-(d), two supercritical HB points occur for parameters $k_1$, $k_2$ and $k_3$, which determine a finite interval for each parameter wherein a family of periodic orbits exist. Interestingly, a bi-stability interval for parameter $n$ is delimited by $n$-values where a subcritical HB and fold bifurcation (LP) points happen. That is, a branch consisting of unstable limit cycles emanates from the subcritical HB, which stabilizes at the LP points. Hence, stable steady-states coexist with stable limit-cycles for this interval, where the unstable periodic branch plays a critical role for initial states. This result, as is depicted in Fig.~\ref{FigA01}(e), indicates that an on-and-off gene switch is present, which provides hysteretical features triggered by key values of the characteristic Hill coefficient. We may argue from this that the cooperativity in the gene regulatory network favors system robustness to parameter variations.
+	In other words, the existence of at least one steady-state in the first quadrant is guaranteed. We can straightforwardly  prove, from the Poincare-Bendixon theorem, that a limit-cycle family emerges as a result of this steady-state undergoing a Hopf bifurcation (HB). In order to disclose this implication, we performed a numerical continuation by using the algorithms implemented in XPPAUT (Ermentrout, 1987). The resulting bifurcation diagrams obtained by slowly varying each parameter of system~\eqref{eqA12} are depicted in Fig.~\ref{FigA01}. Notice that the system undergoes HBs for the parameters values in Table~\ref{Tab01}. In Fig.~\ref{FigA01}(a), a single HB for parameter $\beta$ takes place, where periodic orbits vanish at the bifurcation point HB. This suggests that the lower the $\beta$-input value, the larger the amplitude and the longer the period of stable orbits for the homogeneous system; and that no periodic orbits occur for $\beta\gg1$, nonetheless. In contrast, as is shown in Figs.~\ref{FigA01}(b)-(d), two supercritical HB points occur for parameters $k_1$, $k_2$ and $k_3$, which determine a finite interval for each parameter wherein a family of periodic orbits exist. Interestingly, a bi-stability interval for parameter $n$ is delimited by $n$-values where a subcritical HB and fold bifurcation (LP) points happen. That is, a branch consisting of unstable limit cycles emanates from the subcritical HB, which stabilizes at the LP points. Hence, stable steady-states coexist with stable limit-cycles for this interval, where the unstable periodic branch plays a critical role for initial states. This result, as is depicted in Fig.~\ref{FigA01}(e), indicates that an on-and-off gene switch is present, which provides hysteretical features triggered by key values of the characteristic Hill coefficient. We may argue from this that the cooperativity in the gene regulatory network favors system robustness to parameter variations.
 	
 	\begin{figure} %[t!]
 		\centering
@@ -715,7 +710,7 @@ We now derive the dispersion relation, which gives a linear insight of solution 
 	\begin{gather}\label{eqnB07}
 	w_t = Jw + D \nabla^2 w	\,,
 	\end{gather}
-	where $J$ is the Jacobian matrix at $w^*$. Now, as our interest lies on the dynamics in one spatial dimension, we have that $w_m(x)=\cos(\kappa x)$, where $\kappa=m\pi/L$ satisfies the Helmholtz equation for homogenous Neumann boundary conditions as in~\eqref{eqbn}. Thus, \eqref{eqnB07} is satisfied by~\eqref{eqnB06}, when the dispersion relation $\lambda=\lambda(\kappa)$ is given by
+	where $J$ is the Jacobian matrix at $w^*$. Now, as our interest lies on the dynamics in one spatial dimension, we have that $w_m(x)=\cos(\kappa x)$, where $\kappa=m\pi/L$, satisfies the Helmholtz equation for homogenous Neumann boundary conditions as in~\eqref{eqbn}. Thus, \eqref{eqnB07} is satisfied by~\eqref{eqnB06}, when the dispersion relation $\lambda=\lambda(\kappa)$ is given by
 	\begin{gather}\label{eqnB13}
 	|J-D\kappa^2-\lambda I|=0\,, \quad I\in\mathbb{R}^{2\times2}\,,
 	\end{gather}
@@ -738,7 +733,7 @@ As we are interested in the linear stability of the steady state $w^*$, characte
 %	d_rf_a + d_ag_r > 2\sqrt{d_ad_r(f_ag_r-f_rg_a)} \,. \label{eqnB20}
 	\end{gather}
 \end{subequations} 
-These conditions provide the ingredients that give place to non homogeneous spatially extended stationary states. We are however interested in a mechanism that triggers sustained oscillations of the gene network that give place to a stationary pattern in the long term. Such a process is dynamically provided by the Turing-Hopf bifurcation (THB); see, for instance,~\citep{Castillo2016, liu}. From~\eqref{eqnB14}, this bifurcation is prompted by obtaining purely imaginary eigenvalues by slowly varying $d_a$ or $\beta$. In so doing, we notice that two key conditions must be met: (i)~$f_a + g_r=0$ at the THB point, and (ii)~$d\lambda(\kappa^2;p^*)/dp\neq0$, also known as transversality condition, where $p^*=d_a^*$ or $p^*=\beta^*$ represent the THB parameter value. Thus, in order to obtain the parameter regions where a Turing bifurcation, HB and THB occur in system~\eqref{eqnB01234}, we solve~\eqref{eq:lambda} for $\lambda(\kappa^2)$. In Fig.~\ref{FigB01}, the parameter space on scope is portrayed, where four different stability features for the selected range values of parameters $\beta$ and $d_a$ are identified in four regions, labeled accordingly: Turing pattern, Turing-Hopf pattern, Hopf pattern, and no pattern. Notice that, at the transition curve between region II and III, parameters $\beta$ and $d_a$ follow an inverse relation; in other words, the larger parameter $\beta$ is, the lower diffusivity $d_a$ is needed for the bifurcation to take place. In addition, notice that for a fixed value of $d_a=5\times10^{-5}$, slowly varying $\beta$ from 0 up to 1 drives the system through two bifurcations, which in turn originate three different mechanisms. That is, no pattern is formed for $0\leq\beta < 0.5\times10^{-2}$, which is followed by getting into the Turing-Hopf pattern region for $ 0.5\times10^{-2}<\beta<0.5$, to get in the Hopf pattern region, which is held by $ 0.5<\beta\leq 1.0$. 
+These conditions provide the ingredients that give place to non homogeneous spatially extended stationary states. We are however interested in a mechanism that triggers sustained oscillations of the gene network that give place to a stationary pattern in the long term. Such a process is dynamically provided by the Turing-Hopf bifurcation (THB); see, for instance,~\citep{Castillo2016, liu}. From~\eqref{eqnB14}, this bifurcation is prompted by obtaining purely imaginary eigenvalues by slowly varying $d_a$ or $\beta$. In so doing, we notice that two key conditions must be met: (i)~$f_a + g_r=0$ at the THB point, and (ii)~$d\lambda(\kappa^2;p^*)/dp\neq0$, also known as transversality condition, where $p^*=d_a^*$ or $p^*=\beta^*$ represents the THB parameter value. Thus, in order to obtain the parameter regions where a Turing bifurcation, HB and THB occur in system~\eqref{eqnB01234}, we solve~\eqref{eq:lambda} for $\lambda(\kappa^2)$. In Fig.~\ref{FigB01}, the parameter space on scope is portrayed, where four different stability features for the selected range values of parameters $\beta$ and $d_a$ are identified in four regions, labeled accordingly: Turing pattern, Turing-Hopf pattern, Hopf pattern, and no pattern. Notice that, at the transition curve between region II and III, parameters $\beta$ and $d_a$ follow an inverse relation; in other words, the larger parameter $\beta$ is, the lower diffusivity $d_a$ is needed for the bifurcation to take place. In addition, notice that for a fixed value of $d_a=5\times10^{-5}$, slowly varying $\beta$ from 0 up to 1 drives the system through two bifurcations, which in turn originate three different mechanisms. That is, no pattern is formed for $0\leq\beta < 0.5\times10^{-2}$, which is followed by getting into the Turing-Hopf pattern region for $ 0.5\times10^{-2}<\beta<0.5$, to get in the Hopf pattern region, which is held by $ 0.5<\beta\leq 1.0$. 
 
 \begin{figure}[t!]
 	\centering
@@ -756,7 +751,7 @@ These conditions provide the ingredients that give place to non homogeneous spat
 	\label{FigB02}
 \end{figure}
 
-The four kinds of patterns depicted in Fig.~\ref{FigB01} are classified according to the roots of~\eqref{eq:lambda}. A sample of each root-solution type is plotted in Fig \ref{FigB02}, where solid lines are  the real part of the eigenvalues and the dashed lines correspond to the imaginary part. The Turing pattern region is labelled by I; as can be seen there, the dispersion relation has a finite positive maximum which gives place to an interval of unstable wave modes. For region II, a Turing-Hopf pattern dispersion relation is depicted, where the imaginary part is non zero for positive portions of the real part, and when the imaginary part colapses to zero, the real part is as in the Turing region. That is, this stability feature gathers two main dynamical ingredients: oscillatory and non oscillatory unstable modes in two finite disconected subintervals. In region III, a Hopf pattern is characterized by having a dispersion relation in which the real part is only non negative for wave modes where the imaginary part is non zero. Finally, region IV corresponds to no pattern, which is characterized by having a negative real part of the dispersion relation for all wave modes, and hence the homogeneous steady state suffers no symmetry breaking. In other words, the combination of real and imaginary parts of $\lambda(\kappa^2)$ in~\eqref{eqnB06}, and provided by~\eqref{eqnB13}, determines each pattern type as well as transitions between regions. For a detailed discussion about the former approach, see~\citep{liu}.
+The four kinds of patterns depicted in Fig.~\ref{FigB01} are classified according to the roots of~\eqref{eq:lambda}. A sample of each root-solution type is plotted in Fig \ref{FigB02}, where solid curves are  the real part of the eigenvalues and the dashed curves correspond to the imaginary part. The Turing pattern region is labelled by I; as can be seen there, the dispersion relation has a finite positive maximum which gives place to an interval of unstable wave modes. For region II, a Turing-Hopf pattern dispersion relation is depicted, where the imaginary part is non zero for positive portions of the real part, and when the imaginary part colapses to zero, the real part is as in the Turing region. That is, this stability feature gathers two main dynamical ingredients: oscillatory and non oscillatory unstable modes in two finite disconected subintervals. In region III, a Hopf pattern is characterized by having a dispersion relation in which the real part is only non negative for wave modes where the imaginary part is non zero. Finally, region IV corresponds to no pattern, which is characterized by having a negative real part of the dispersion relation for all wave modes, and hence the homogeneous steady state suffers no symmetry breaking. In other words, the combination of real and imaginary parts of $\lambda(\kappa^2)$ in~\eqref{eqnB06}, provided by~\eqref{eqnB13}, determines each pattern type as well as transitions between regions. For a detailed discussion about this approach, see~\citep{liu}.
 
 \begin{figure}[t!]
  		\includegraphics[width=3.2in]{Figures/ApFigure03a}
@@ -792,6 +787,7 @@ where $v=0.02$ and $v=-0.02$ for the run in panels (a) and (b), respectively. Th
 
 \clearpage
 
+\bibliographystyle{ieeetr}
 \bibliography{ReactionDiffusion}
 
 \end{document}

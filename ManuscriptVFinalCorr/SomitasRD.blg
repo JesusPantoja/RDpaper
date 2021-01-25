@@ -1,71 +1,50 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: SomitasRD.aux
-The style file: apsrev4-2.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: ieeetr.bst
 Database file #1: SomitasRDNotes.bib
 Database file #2: ReactionDiffusion.bib
-control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
-control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
-Warning--jnrlst (dependency: not reversed) set 1
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
-Control: key (0) 
-Control: author (8) initials jnrlst
-Control: editor formatted (1) identically to author
-Control: production of article title (0) allowed
-Control: page (0) single
-Control: year (1) truncated
-Control: production of eprint (0) enabled
-Warning--missing publisher in Murray1989
+Warning--can't use both author and editor fields in Murray1989
+Warning--empty publisher in Murray1989
 You've used 25 entries,
-            6079 wiz_defined-function locations,
-            1839 strings with 20437 characters,
-and the built_in function-call counts, 26120 in all, are:
-= -- 1856
-> -- 641
-< -- 165
-+ -- 208
-- -- 162
-* -- 3935
-:= -- 2440
-add.period$ -- 23
+            1876 wiz_defined-function locations,
+            664 strings with 8237 characters,
+and the built_in function-call counts, 8229 in all, are:
+= -- 892
+> -- 259
+< -- 0
++ -- 97
+- -- 72
+* -- 594
+:= -- 1101
+add.period$ -- 27
 call.type$ -- 25
-change.case$ -- 115
-chr.to.int$ -- 38
-cite$ -- 26
-duplicate$ -- 2459
-empty$ -- 1851
-format.name$ -- 356
-if$ -- 5307
-int.to.chr$ -- 1
-int.to.str$ -- 32
-missing$ -- 390
-newline$ -- 121
-num.names$ -- 70
-pop$ -- 965
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 419
+empty$ -- 712
+format.name$ -- 72
+if$ -- 2027
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 27
+newline$ -- 80
+num.names$ -- 25
+pop$ -- 38
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1148
+skip$ -- 360
 stack$ -- 0
-substring$ -- 571
-swap$ -- 2334
-text.length$ -- 76
+substring$ -- 717
+swap$ -- 228
+text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 10
-type$ -- 338
+top$ -- 0
+type$ -- 0
 warning$ -- 2
-while$ -- 81
-width$ -- 0
-write$ -- 258
+while$ -- 87
+width$ -- 27
+write$ -- 264
 (There were 2 warnings)
