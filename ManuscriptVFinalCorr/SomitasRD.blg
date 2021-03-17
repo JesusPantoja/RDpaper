@@ -1,50 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: SomitasRD.aux
 The style file: ieeetr.bst
 Database file #1: SomitasRDNotes.bib
 Database file #2: ReactionDiffusion.bib
+Warning--empty title in Meinhardt1982
 Warning--can't use both author and editor fields in Murray1989
 Warning--empty publisher in Murray1989
-You've used 25 entries,
+You've used 27 entries,
             1876 wiz_defined-function locations,
-            664 strings with 8237 characters,
-and the built_in function-call counts, 8229 in all, are:
-= -- 892
-> -- 259
+            676 strings with 8460 characters,
+and the built_in function-call counts, 8698 in all, are:
+= -- 942
+> -- 271
 < -- 0
-+ -- 97
-- -- 72
-* -- 594
-:= -- 1101
-add.period$ -- 27
-call.type$ -- 25
-change.case$ -- 24
++ -- 102
+- -- 75
+* -- 622
+:= -- 1163
+add.period$ -- 30
+call.type$ -- 27
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 419
-empty$ -- 712
-format.name$ -- 72
-if$ -- 2027
+cite$ -- 30
+duplicate$ -- 444
+empty$ -- 760
+format.name$ -- 75
+if$ -- 2144
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 27
-newline$ -- 80
-num.names$ -- 25
-pop$ -- 38
+int.to.str$ -- 27
+missing$ -- 30
+newline$ -- 87
+num.names$ -- 27
+pop$ -- 47
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 360
+skip$ -- 377
 stack$ -- 0
-substring$ -- 717
-swap$ -- 228
+substring$ -- 749
+swap$ -- 237
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 87
-width$ -- 27
-write$ -- 264
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 92
+width$ -- 29
+write$ -- 282
+(There were 3 warnings)

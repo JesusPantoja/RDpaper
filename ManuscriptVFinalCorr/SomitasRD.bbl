@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Cotterell2015}
-J.~Cotterell, A.~Robert-Moreno, and J.~Sharpe, ``A local, self-organizing
-  reaction-diffusion model can explain somite patterning in embryos,'' {\em
-  Cell Systems}, vol.~1, pp.~257--269, oct 2015.
-
 \bibitem{Maroto2012}
 M.~Maroto, R.~A. Bone, and J.~K. Dale, ``Somitogenesis,'' {\em Development},
   vol.~139, pp.~2453--2456, jun 2012.
@@ -47,6 +42,20 @@ L.~A. Naiche, N.~Holder, and M.~Lewandoski, ``{FGF}4 and {FGF}8 comprise the
 A.~S. Dias, I.~de~Almeida, J.~M. Belmonte, J.~A. Glazier, and C.~D. Stern,
   ``Somites without a clock,'' {\em Science}, vol.~343, no.~6172, pp.~791--795,
   2014.
+
+\bibitem{Meinhardt1982}
+H.~Meinhardt.
+\newblock Academic Press, 1982.
+
+\bibitem{Francois2018}
+P.~Fran{\c{c}}ois and L.~Jutras-Dub{\'{e}}, ``Landscape, bifurcations, geometry
+  for development,'' {\em Current Opinion in Systems Biology}, vol.~11,
+  pp.~129--136, Oct. 2018.
+
+\bibitem{Cotterell2015}
+J.~Cotterell, A.~Robert-Moreno, and J.~Sharpe, ``A local, self-organizing
+  reaction-diffusion model can explain somite patterning in embryos,'' {\em
+  Cell Systems}, vol.~1, pp.~257--269, oct 2015.
 
 \bibitem{Santillan2008}
 M.~Santill{\'{a}}n and M.~C. Mackey, ``A proposed mechanism for the interaction
