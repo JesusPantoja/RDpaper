@@ -45,7 +45,7 @@
 \begin{document}
 
 
-\title{Reaction-diffusion model for the arrest of oscillations in the somitogenesis segmentation clock}
+\title{Hybrid reaction-diffusion and clock-and-wavefront model for the arrest of oscillations in the somitogenesis segmentation clock}
 
 \author{Jes\'us Pantoja-Hern\'andez}
 \email{jpantoja@cinvestav.mx}
@@ -60,13 +60,13 @@
 \affiliation{Centro de Investigaci\'on y de Estudios Avanzados del IPN, Unidad Monterrey, Vía del Conocimiento 201, Parque PIIT, 66628 Apodaca NL, México}
 
 \begin{abstract}
-The clock and wavefront paradigm is arguably the most widely accepted model for explaining the embryonic process of somitogenesis. According to this model, somitogenesis is based upon the interaction between a genetic oscillator, known as segmentation clock, and a moving wavefront, which provides the positional information indicating where each pair of somites is formed. \textcolor{red}{Shortly after the clock and wavefront paradigm was introduced, Meinhardt presented a conceptually different mathematical model for morphogenesis in general, and somitogenesis in particular. Recently, Cotterell \emph{et al.} rediscovered an equivalent model by systematically enumerating and studying small networks performing segmentation. Cotterell \emph{et al.} called it a progressive oscillatory reaction-diffusion (PORD) model}. In the Meinhardt-PORD model, somitogenesis is driven by short-range interactions and the posterior movement of the front is a local, emergent phenomenon, which is not controlled by global positional information. With this model, it is possible to explain some experimental observations that are incompatible with the clock and wavefront model. However the Meinhardt-PORD model has some important disadvantages of its own. Namely, it is quite sensitive to fluctuations and depends on very specific initial conditions (which are not biologically realistic). In this work, we propose a hybrid model, between the clock-and-wavefront and the PORD ones, and show that it is able to overcome most of the inconveniences of the originating models.
+The clock and wavefront paradigm is arguably the most widely accepted model for explaining the embryonic process of somitogenesis. According to this model, somitogenesis is based upon the interaction between a genetic oscillator, known as segmentation clock, and a moving wavefront, which provides the positional information indicating where each pair of somites is formed. \textcolor{red}{Shortly after the clock and wavefront paradigm was introduced, Meinhardt presented a conceptually different mathematical model for morphogenesis in general, and somitogenesis in particular. Recently, Cotterell \emph{et al.} rediscovered an equivalent model by systematically enumerating and studying small networks performing segmentation. Cotterell \emph{et al.} called it a progressive oscillatory reaction-diffusion (PORD) model}. In the Meinhardt-PORD model, somitogenesis is driven by short-range interactions and the posterior movement of the front is a local, emergent phenomenon, which is not controlled by global positional information. With this model, it is possible to explain some experimental observations that are incompatible with the clock and wavefront model. However the Meinhardt-PORD model has some important disadvantages of its own. Namely, it is quite sensitive to fluctuations and depends on very specific initial conditions (which are not biologically realistic). In this work, we \textcolor{red}{propose an equivalent Meinhardt-PORD model, and then amend it to couple it with a morphogen wavefront. By doing so, we get a hybrid model between the Meinhardt-PORD and the clock-and-wavefront ones, which overcomes most of the deficiencies of the two originating models.}
 \end{abstract}
 	
 \maketitle
 
 \textbf{
-Somitogenesis, the process by which somites are formed, is an essential developmental stage in many vertebrates. This process occurs with a strikingly regular periodicity, that is preserved among embryos of a single species. The clock and wavefront paradigm is arguably the most widely accepted model for explaining somitogenesis. However, it is incapable of explaining some experimental facts, like the appearance of somites in the absence of a wavefront. Recently, a so-called progressive oscillatory reaction-diffusion (PORD) model was introduced, which tackles some of the deficiencies of the clock and wavefront models. Nonetheless, the PORD model has some serious issues of its own. In the present work, we study a hybrid model, which incorporates characteristics of the PORD and clock-and-wavefront models. We show that the model undergoes a bifurcation, from a stable to an unstable limit cycle, as the value of the parameter accounting for a background regulatory input associated to the wavefront decreases. This bifurcation allows the model to explain why somites can form in the absence of a wavefront, reassesses the role of the wavefront as a conductor for somitogenesis, and makes the model behavior robust to random fluctuations, as  well as independent from specific initial conditions (the latter, are two of the weak points of the PORD model). We argue that this findings provide convincing evidence that reaction-diffusion and positional information (wavefront) mechanisms could work together in somitogenesis.	
+Somitogenesis, the process by which somites are formed, is an essential developmental stage in many vertebrates. This process occurs with a strikingly regular periodicity, that is preserved among embryos of a single species. The clock and wavefront paradigm is arguably the most widely accepted model for explaining somitogenesis. However, it is incapable of explaining some experimental facts, like the appearance of somites in the absence of a wavefront. Shortly after the clock and wavefront paradigm was introduced, Meinhardt presented a conceptually different mathematical model for morphogenesis in general, and somitogenesis in particular. Recently, Cotterell \emph{et al.} rediscovered an equivalent model by systematically enumerating and studying small networks performing segmentation, and called it a progressive oscillatory reaction-diffusion (PORD) model. The Meinhardt-PORD model tackles some of the deficiencies of the clock and wavefront models, but it has some serious issues of its own. In the present work, \textcolor{red}{we introduce an equivalent Meinhardt-PORD model, and then amend it to couple it with a morphogen wavefront. By doing so,} we get a hybrid model that incorporates characteristics of the Meinhardt-PORD and clock-and-wavefront models. We show that this hybrid model undergoes a bifurcation, from a stable to an unstable limit cycle, as the value of the parameter accounting for a background regulatory input associated to the wavefront decreases. This bifurcation allows the model to explain why somites can form in the absence of a wavefront, reassesses the role of the wavefront as a conductor for somitogenesis, and makes the model behavior robust to random fluctuations, as  well as independent from specific initial conditions (the latter, are two of the weak points of the Meinhardt-PORD model). We argue that this findings provide convincing evidence that reaction-diffusion and positional information (wavefront) mechanisms could work together in somitogenesis.	
 }
 
 \section{Introduction}
@@ -101,7 +101,7 @@ In opposition to its multiple virtues, the \textcolor{red}{Meihardt-PORD} model 
 
 We speculate from the above discussion that, although a wavefront is not strictly necessary for the \textcolor{red}{Meihardt-PORD} model to generate a gene expression pattern consistent with somitogenesis, the interaction with a wavefront is essential to explain the observed robustness of this phenomenon and to eliminate its dependence on specific initial conditions. In other words, we argue that a hybrid model that accounts for the diffusion of the regulatory \textcolor{red}{proteins} (as in the \textcolor{red}{Meihardt-PORD} model), as well as for a global wavefront that interacts with the oscillatory gene network (as in the clock and wavefront paradigm), may circumvent the deficiencies of the original models. The present work is aimed at testing this hypothesis, and discussing the corresponding biological implications.
 	
-The manuscript is organized as follows. In section \ref{model} we develop a hybrid model between the \textcolor{red}{Meihardt-PORD} and the clock-and-wavefront models. In section \ref{param} we define the parameter set where the dynamics of the non-diffusion system give place to a limit cycle family. In section \ref{numer} we explain the numerical methods used as well as the initial and boundary conditions. In section \ref{res} we present and discuss the present work results. Finally, we discuss the relevance of the results obtained as well as the limitations of the model in section \ref{conclu}.
+The manuscript is organized as follows. In section \ref{model} we introduce an equivalent Meinhardt-PORD model, and expand it to couple it with a morphogen wavefront. In section \ref{param} we define the parameter set where the dynamics of the non-diffusion system give place to a limit cycle family. In section \ref{numer} we explain the numerical methods used, as well as the initial and boundary conditions. In section \ref{res} we present and discuss the present work results. Finally, we discuss the relevance of the obtained results, as well as the limitations of the model in section \ref{conclu}.
 	
 	\section{Mathematical Model}
 	\label{model}
@@ -117,7 +117,7 @@ Consider the gene network schematically represented in Fig. \ref{Fig01}. Assume 
 	\end{subequations}
 where $\alpha_A$ and $\alpha_R$ are the maximum possible rate of activator and repressor production; $P_A$ and $P_B$ are the probabilities that the promoters of genes $A$ and $R$ are active; degradation rate constants of each protein concentration are denoted by $\mu_A$ and $\mu_R$, respectively; and $D_A$ and $D_R$ are the corresponding diffusion coefficients.
 
-\textcolor{red}{It is important to emphasize at this point that $D_A = 0$ in the Meinhardt-PORD model. However, we consider for the sake of generality that both the repressor and the activator can diffuse. Later on, the dynamical consequences of introducing activator diffusion will be discussed.}
+\textcolor{red}{It is important to emphasize at this point that $D_A = 0$ in the Meinhardt-PORD model. However, we consider for the sake of generality that both the repressor and the activator can diffuse. Later on, we show that introducing activator diffusion is necessary to efficiently couple the system with a morphogen wavefront and get a clock-and-wavefront behavior.}
 	
 To take into account the roles of the activator and the repressor, $P_A(A, R)$ must be a monotonic increasing (decreasing) function of $A$ ($R$), while $P_R(A)$ ought to be a monotonic increasing function of $A$. 
 
@@ -128,7 +128,7 @@ To take into account the roles of the activator and the repressor, $P_A(A, R)$ m
 		P_R(A) = \rho' A^2. \label{eq04a}
 		\end{gather}
 	\end{subequations}
-This expression are troublesome from a biochemical perspective because $P_A(A, R)$ diverges as $A \to \infty$ while, in real life, gene expression rates saturate for large activator concentrations. On the other hand, both $P_A(A, R)$ and $P_R(A)$ diverge as $R \to 0$. However, this is not the way gene expression behaves in the absence of repressors.} 
+These expressions are troublesome from a biochemical perspective because $P_A(A, R)$ diverges as $A \to \infty$ while, in real life, gene expression rates saturate for large activator concentrations. On the other hand, both $P_A(A, R)$ and $P_R(A)$ diverge as $R \to 0$. However, this is not the way gene expression behaves in the absence of repressors.} 
 
 On their own, Cotterell {\em et al.}~\cite{Cotterell2015} proposed the following functions:
 	\begin{subequations}\label{eq034}
@@ -231,10 +231,7 @@ We employed different initial conditions along the present work and they are  sp
 \section{Results}
 \label{res}
 	
-	We started by reproducing the results in \cite{Cotterell2015}. To this end, we
-	set $d_a=0$, $d_r = 2.5\times10^{-3}$, $\beta = 0.5$, and numerically solved the
-	model equations as described in Section \ref{numer}, with the following initial 
-	conditions:
+We started by reproducing the results in \cite{Cotterell2015} to test the equivalence of the Meinhardt-PORD model and the present one, in the absence of activator diffusion. To this end, we set $d_a=0$, $d_r = 2.5\times10^{-3}$, $\beta = 0.5$, and numerically solved the model equations as described in Section \ref{numer}, with the following initial conditions:
 	\begin{gather}
 	a(x, 0) = \left\{\begin{array}{cl}
 	0.05 & \text{for } x = 1, \\
@@ -243,33 +240,9 @@ We employed different initial conditions along the present work and they are  sp
 	\quad
 	r(x, 0) = 0, \; \text{for } 0 \leq x \leq 1\,.
 	\end{gather}
-	That is, the system is assumed to be initially homogeneous, except for a
-	perturbation at the anterior extreme of the observation window.	
-	The simulation results are shown in Fig.~\ref{Fig02}A. To better visualize 
-	the temporal evolution of the animations in this work, we created 
-	animations with the data sets, here plotted as heat maps, and put them 
-	in the reservoir 
-	\url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}. 
-	Observe that an oscillatory behavior
-	gradually gives rise to a steady pattern consisting of alternated high and low
-	gene-expression regions. Notice as well that the pattern formation dynamics start at
-	the initial perturbation position, and propagate with constant speed. The
-	initial perturbation is essential for the appearance of the pattern. If the
-	system is initially homogeneous, the oscillatory behavior continues
-	indefinitely---see Fig.~\ref{Fig02}B. On the other hand, when more than one
-	initial perturbations are present, each one of them originates a
-	pattern-formation wave, and when two such waves collide, they cancel out---see 
-	Fig.~\ref{Fig02}C. These results suggest that the transition from an
-	oscillatory behavior to a steady pattern of gene expression is due to a
-	diffusion driven instability interacting with a limit cycle. To verify this,
-	we investigated the spatial stability of the dynamical system
-	in~\eqref{eq078910} and~\eqref{eqbn} in
-	Appendix \ref{app:bif}. We were able to confirm
-	that the limit cycle is unstable with the current parameter values set; see
-	Fig.~\ref{FigB02}, panel (c), at $\kappa^2=0$, 
-	\textcolor{red}{where $\kappa$ denotes the Fourier mode.}
+That is, the system is assumed to be initially homogeneous, except for a perturbation at the anterior extreme of the observation window. The simulation results \textcolor{red}{for the activator concentration} are shown in Fig.~\ref{Fig02}A. To better visualize the temporal evolution of the animations in this work, we created animations with the data sets, here plotted as heat maps, and put them in the public reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}. Observe that an oscillatory behavior gradually gives rise to a steady pattern, consisting of alternated high and low activator concentration regions, in agreement with the reported behavior of the Meinhardt \cite{Meinhardt1982} and PORD \citep{Cotterell2015} models. 
 	
-	\begin{figure}[t!]
+	\begin{figure}[ht!]
 		\centering
 		\includegraphics[width=2in]{Figures/Fig02aRev.pdf}
 		\includegraphics[width=2in]{Figures/Fig02bRev.pdf}
@@ -285,42 +258,14 @@ We employed different initial conditions along the present work and they are  sp
 			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{Fig02}
 	\end{figure}
+
+\textcolor{red}{Further notice in Fig.~\ref{Fig02}A that, once the system has reached a stationary pattern, the high-activator-concentration stripes are much shorter than those corresponding to low activator concentration. This behavior is different from that of the Meindhardt-PORD model, which renders alternated equally-sized stripes. Meindhart interpreted them as corresponding to the anterior and posterior phenotypes (AP) of a somite. Meinhardt also pointed out that this pattern was not sufficient to explain somitogenesis, as another periodic stripe (S) was needed, at least, to determine somite boundaries via the pattern: SAPSAPSAPS, and suggested that a more complex gene network was required to reproduce this pattern. In our model, we propose that a high activator level is the signal that triggers the mesenchymal-epithelial transition, and so the high-activator-concentration stripes can be interpreted as corresponding to the boundaries between adjacent somites (S stripes). Hence, somites occupy the low-activator-level regions in the final stationary pattern. As in the Meindhart model, ours does not explain all segmentation features. In particular, it does not account for the differentiation between the anterior and posterior somite phenotypes, and a more complex network would be required to do so.}
+
+By looking closely at the dynamics pictured in Fig.~\ref{Fig02}A, we can observe that the pattern formation dynamics start at the initial perturbation position, and propagate with constant speed. The initial perturbation is essential for the appearance of the pattern. If the system is initially homogeneous, the oscillatory behavior continues indefinitely---see Fig.~\ref{Fig02}B. On the other hand, when more than one initial perturbations are present, each one of them originates a pattern-formation wave, and when two such waves collide, they cancel out---see Fig.~\ref{Fig02}C. These results suggest that the transition from an oscillatory behavior to a steady pattern of gene expression is due to a diffusion driven instability interacting with a limit cycle. To verify this, we investigated the spatial stability of the dynamical system in~\eqref{eq078910} and~\eqref{eqbn} in Appendix \ref{app:bif}. We were able to confirm that the limit cycle is unstable with the current parameter values set; see Fig.~\ref{FigB02}, panel (c), at $\kappa^2=0$, \textcolor{red}{where $\kappa$ denotes the Fourier mode.}
 	
-	The results described in the previous paragraph are consistent with the reported
-	experimental observations that somites can form in the absence of a wavefront
-	(recall that somite formation in the absence of a wavefront is incompatible with 
-	the clock and wavefront paradigm). As a matter of fact, they may explain why somites 
-	form almost simultaneously and irregularly; i.e. any initial perturbation in the 
-	mesoderm tissue would rapidly originate a somite boundary, and the emerging pattern 
-	formation wave would almost immediately collide with neighboring waves. 
-	
-	On the other hand, the results in Fig.~\ref{Fig02}C disagree with the observed 
-	robustness of somitogenesis to many different kinds of perturbations on both the 
-	mesoderm tissue and the differentiation wavefront. Moreover, PORD models demand very 
-	specific initial conditions to produce ordered segmentation patterns, but this is not 
-	biologically realistic. Taking into account that there are several reports that confirm 
-	the importance of the differentiation wavefront \cite{Naiche2011, Sawada2001} we 
-	hypothesize that, although it is not strictly necessary in PORD models to generate 
-	a segmentation pattern, somitogenesis robustness can be achieved via the interaction
-	between the gene network and a wavefront, and that this will also eliminate 
-	the stringent dependence on a specific initial condition. 
-	
-	\textcolor{red}{The differentiation wavefront is originated by 
-	morphogens (like FGF8 and Wnt3a in chicken and mice) which are produced in the
-	embryo tail bud and diffuse to the rest of the PSM. In consequence, the morphogen
-	concentration decreases in the posterior to anterior direction. Furthermore, 
-	as the embryo grows, the tail bud recedes leaving PSM cells behind. Hence,
-	the spatial morphogen distribution moves in the anterior to posterior direction, like
-	a wavefront, as time passes. In other words, we expect that a stable limit cycle 
-	emerges for large
-	enough values of $\beta$ (that accounts for the PSM interaction with the
-	wavefront), which maintains an oscillatory gene expression despite perturbations, 
-	thus preventing somite formation close to the tail bud. Furthermore, if the limit
-	cycle turns unstable below a given $\beta$ threshold, any local inhomogeneity would
-	lead to the formation of a somite at the PSM position where the threshold is
-	reached. This dynamic behavior may explain why somites are formed in an
-	irregular fashion in the absence of morphogens, and how a morphogen wavefront robustly
-	drives somitogenesis.}
+The results described in the previous paragraph, which are qualitatively equivalent to those previously reported by Meinhardt~\cite{Meinhardt1982} and Cotterell \emph{et al.}~\citep{Cotterell2015}, are consistent with the reported experimental observations that somites can form in the absence of a wavefront (recall that somite formation in the absence of a wavefront is incompatible with the clock and wavefront paradigm). As a matter of fact, they may explain why somites form almost simultaneously and irregularly; i.e. any initial perturbation in the mesoderm tissue would rapidly originate a somite boundary, and the emerging pattern formation wave would almost immediately collide with neighboring waves. On the other hand, the results in Fig.~\ref{Fig02}C disagree with the observed robustness of somitogenesis to many different kinds of perturbations on both the mesoderm tissue and the differentiation wavefront. Moreover, Meinhardt-PORD models demand very specific initial conditions to produce ordered segmentation patterns, but this is not biologically realistic. 
+
+There are several reports that confirm the importance of the differentiation wavefront \cite{Naiche2011, Sawada2001}. In particular, it has been reported in chick embryos that ``FGF8 is sufficient to maintain the caudal identity of presomitic mesoderm cells and that down-regulation of FGF8 signalling at the level of the determination front is required to enable cells to proceed further with the segmentation process'' \cite{Dubrulle2001}. We speculate from this that, although a morphogen wavefront is not strictly necessary in Meinhardt-PORD models to generate a segmentation pattern, somitogenesis robustness can be achieved by coupling the model with a wavefront, and that this will also eliminate the stringent dependence on a specific initial condition. \textcolor{red}{In this regard, Meinhardt \cite{Meinhardt1982} demonstrated that coupling its model with a morphogen gradient can bias reaction-diffusion-based patterning. However, he considered a static gradient instead of the differentiation wavefront which is observed in vertebrates.} 
 	
 	\begin{figure}[t!]
 		\centering
@@ -337,6 +282,9 @@ We employed different initial conditions along the present work and they are  sp
 			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{Fig03}
 	\end{figure}
+
+The differentiation wavefront is originated by \textcolor{red}{morphogens (like FGF8 and Wnt3a in chicken and mice)} which are produced in the embryo tail bud and diffuse to the rest of the PSM. In consequence, the morphogen concentration decreases in the posterior to anterior direction. Furthermore, as the embryo grows, the tail bud recedes leaving PSM cells behind. Hence, the spatial morphogen distribution moves in the anterior to posterior direction, like a wavefront, as time passes. \textcolor{red}{Taking this into account, together with the fact that, following Cotterell \emph{et al.} \citep{Cotterell2015}, parameter $\beta$ accounts for the gene network interaction with the external morphogen, the model in \eqref{eq078910} could be coupled with a $\beta$ wavefront, to yield a clock-and-wavefront behavior, provided that the system has a spatially stable limit cycle for large $\beta$ values, and turns unstable below a given $\beta$ threshold. In this way, large morphogen levels would maintain an oscillatory gene expression despite perturbations, thus preventing somite formation close to the tail bud. Furthermore, once $\beta$ goes below the threshold at which the limit cycle becomes unstable, any local inhomogeneity would lead to the formation of a somite at the PSM position where the threshold is reached.}
+
 	
 	\begin{figure}[t!]
 		\centering
@@ -348,7 +296,7 @@ We employed different initial conditions along the present work and they are  sp
 			$\beta$-wave speed as in~\eqref{eqbeta}, with boundary condition as
 			in~\eqref{eqbn}. (A) $\beta$-wave evolution and (B) somite-pattern formation for
 			speed $v=0.02$; (C)~$\beta$-wave evolution and (D) somite-pattern formation for
-			speed  $v=0.04$. Initial conditions for~$a$ consists of random uniform
+			speed $v=0.04$. Initial conditions for~$a$ consists of random uniform
 			distributions in the interval $[0, 0.1]$, whereas $r(x, 0) = 0$ for all
 			$x\in[0,1]$. Parameter values were set as follows: $k_1=0.05$, $k_2=0.01$, $k_3=2$,
 			$n=3$, $d_a = 5\times10^{-5}$ and~$d_r=2.5\times10^{-3}$. Animations with the same 
@@ -357,53 +305,20 @@ We employed different initial conditions along the present work and they are  sp
 		\label{Fig04}
 	\end{figure}
 	
-	In Appendix, \ref{app:bif} we analyzed the stability of the PDE system when 
-	depending on parameters $\beta$ and $d_a$, and found that for a fixed value 
-	for $d_a=5\times10^{-5}$ the system undergoes a bifurcation	from a stable to 
-	an unstable limit cycle as the value of $\beta$ decreases. To illustrate these 
-	findings, we present in Fig.~\ref{Fig03} the results of two
-	simulations: one in which the limit cycle is stable and another in which it is
-	unstable. In Fig.~\ref{Fig04} we present the results of two more runs where,
-	instead of considering a constant value of~$\beta$, we assume that it is given
-	by 
+In Appendix, \ref{app:bif} we analyzed the \textcolor{red}{spatial} stability of the PDE system when depending on parameters $\beta$ and $d_a$. \textcolor{red}{We found that, when $d_a = 0$ and the system is equivalent to the Meinhardt-PORD model, the limit cycle does not turn spatially stable, even for quite large values of $\beta$ (see Fig. \ref{FigB01}). This makes it impossible to couple the gene network with a morphogen wavefront and get a clock-and-wavefron behavior, as we have conceived it. Nonetheless, it is known that reaction-diffusion systems can stabilize because of diffusion. Thus, we wondered whether expanding the model by also accounting for diffusion of the activator would do the trick. We can see in Fig. \ref{FigB01} that, in fact, it is possible to stabilize the limit cycle by increasing the value of $\beta$, for $d_a$ values larger than about $d_a=2.5\times10^{-5}$.} To illustrate these findings, we present in Fig.~\ref{Fig03} the results of two simulations: one in which the limit cycle is stable and another in which it is unstable. 
+
+\textcolor{red}{To test whether the bifurcations described in the previous paragraphs (when $d_a \neq 0$) are enough to couple the oscillatory gene network and a morphogen wavefront, and yield a clock and wavefront behavior, we performed further simulations in which, instead of considering a constant value of~$\beta$, we assume that it is given by} 
 	\begin{gather}\label{eqbeta}
 	\beta(x, t) = \beta_0 \textcolor{red}{\frac{K_{1/2}^m}{K_{1/2}^m + (x - v t)^m}}\,.
 	\end{gather}
-	Notice that this expression corresponds to a external regulation of gene A, which 
-	is a temporarily and spatially dependent profile that decays in a sigmoidal 
-	fashion in the posterior to anterior direction, and travels with speed
-	$v>0$ in the opposite direction. That is, it mimics the behavior of the \textcolor{red}{morphogen}
-	profile. For the simulations in Fig.~\ref{Fig04} we set \textcolor{red}{$K_{1/2} =1.6 $}, $m = 4 $
-	(these values were also employed for the simulation in Fig.~\ref{Fig05}), and
-	considered two different speed values $v = 0.02 $, and $v = 0.04$. Observe that, in
-	both simulations, the pattern formation waves have the same periodicity, but the
-	regions corresponding somites are larger for the faster wave. This result agrees
-	with the experimental observation that somites are	larger when the velocity of 
-	\textcolor{red}{morphogen} profile is increased \cite{Sawada2001}. Interestingly, we did not have to 
-	assume a specific initial condition for the correct segmentation pattern to arise.
-	The simulations in Fig.~\ref{Fig04} were carried out considering random initial 
-	conditions, but the same results are obtained starting from uniform initial 
-	conditions. 
+Notice that this expression corresponds to a external regulation of gene A, which is a temporarily and spatially dependent profile that decays in a sigmoidal fashion in the posterior to anterior direction, and travels with speed $v>0$ in the opposite direction. That is, it mimics the behavior of the \textcolor{red}{morphogen} profile. The results of two such runs are shown in Fig.~\ref{Fig04}. In those simulations, we set \textcolor{red}{$K_{1/2} =1.6 $}, $m = 4 $ (these values were also employed for the simulation in Fig.~\ref{Fig05}), and considered two different speed values $v = 0.02 $, and $v = 0.04$. \textcolor{red}{Observe that, a periodic pattern arises in both simulations, with the same period as that of the oscillatory gene circuit. However, the regions corresponding somites are larger for the faster morphogen wavefront. These results are consistent with a clock and wavefront mechanism, and agree with the experimental observation that somites are larger when the velocity of \textcolor{red}{morphogen} profile is increased \cite{Sawada2001}. In fact, we were able to corroborate that somite size is given by the product of the wavefront velocity and the period of gene oscillations (see Fig. XXX), an intrinsic feature of all systems in which somitogenesis is driven by a wavefront interacting with a clock \cite{Morelli2009}.} Interestingly, we did not have to  assume a specific initial condition for the correct segmentation pattern to arise. The simulations in Fig.~\ref{Fig04} were carried out considering random initial conditions, but the same results are obtained starting from uniform initial conditions. 
+
+\textcolor{red}{The behavior depicted in Figs. \ref{Fig04} and XXX is similar to several other models for somitogenesis, in which the wavefront causes a transition from oscillation to bistability \cite{Francois2007}. What makes the present model different is the dynamic mechanism driving segmentation. In here, when parameter $\beta$ (which accounts for the interaction of the gene network with the wavefront) locally decreases below a given threshold, the system dynamics turns spatially unstable. Hence, any local inhomogeneity is magnified and causes a biphasic pattern of gene expression. This mechanism has a couple of characteristics that make it appealing: a) since the system behavior changes when the value of $\beta$ is modified, a $\beta$ gradient gives rise to local inhomogeneities, and so no special initial condition is needed to seed patterning; and b) the fact that the system is spatially stable for large $\beta$ values, should make the patterning process robust to variability of the initial conditions and to added random noise (spatial stability attenuates the inhomogeneities induces by these sources of variability).}
 	
-	Interestingly, the frequency of oscillations depends on the value of parameter 
-	$\beta$ in the present model. Indeed,we verified (results not shown) that 
-	the frequency decreases together with $\beta$. This implies that, in a simulations 
-	with a traveling wavefront, anterior regions of the PSM oscillate at a lower 
-	frequency than posterior regions, in agreement with experimental observations 
-	\cite{Goldbeter2008, Hester2011}. This behavior can be appreciated in the 
-	simulations associated to Fig.~\ref{Fig04}, which can be found in the reservoir 
-	\url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.
+We verified by performing several simulations (results not shown) that, in our model, the frequency of oscillations decreases together with the value of parameter $\beta$. This implies that, in simulations  with a traveling wavefront, anterior regions of the PSM oscillate at a lower frequency than posterior regions, in agreement with experimental observations \cite{Goldbeter2008, Hester2011}. This behavior can be appreciated in the simulations associated to Fig.~\ref{Fig04}, which can be found in the reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}. To the best of our knowledge, this an interesting result because we were able to get a frequency profile via a very simple model. As far as we know, it either had to be assumed a priori \cite{Morelli2009} or much more detailed models were necessary to reproduce it \cite{Hester2011}.
 	
-	We further performed simulations in which additive white noise was added to
-	both variables ($a$ and $r$), and confirmed the robustness of the system
-	behavior to this kind of variability. As can be seen in Fig.~\ref{Fig05},
-	results of a typical simulation show that, when the noise coefficient of
-	variation is $c_v = 0.05$ (relative to the corresponding variable 
-	steady-state value), somite formation proceeds in a very precise way,
-	despite the relatively large fluctuations in the gene expression level. On the
-	contrary, when $c_v = 0.1$, although somites continue emerging, they do it in 
-	a disordered and non-periodical fashion.
-	
+\textcolor{red}{We are interested in the system robustness to variability of the initial conditions. To investigate it, we carried out several simulations with different levels of variability in the initial conditions, and measured the standard deviation of the final somite sizes. The results are summarized in Fig. XXX}
+
 	\begin{figure}[t!]
 		\centering
 		\includegraphics[width=2in]{Figures/Fig05aRev.pdf}
@@ -415,32 +330,25 @@ We employed different initial conditions along the present work and they are  sp
 			formation with noise intensity (B)~$c_v=0.05$ and (C)~$c_v=0.1$. Initial
 			conditions for $A$ consists of random uniform distributions in the interval $[0,
 			0.1]$, whereas $R(x, 0) = 0$ for all $x\in[0,1]$. Parameter values were set as
-			follows: $k_1=0.05$, $k_2=0.01$, $k_3=2$, $n=3$,  $d_a = 5\times10^{-5}$
+			follows: $k_1=0.05$, $k_2=0.01$, $k_3=2$, $n=3$, $d_a = 5\times10^{-5}$
 			and~$d_r=2.5\times10^{-3}$. Animations with the same 
 			data sets used to plot the heat-maps in this figure can be found in the 
 			reservoir \url{https://github.com/JesusPantoja/Reaction-Diffusion_Movies/}.}
 		\label{Fig05}
 	\end{figure}
-	
-	To summarize, the results presented in the paragraphs above confirm the
-	hypothesis that a hybrid model, between the PORD and the clock-and-wavefront 
-	models, undergoes a bifurcation from a stable to an 
-	unstable limit cycle, as a result of its interaction with the
-	wavefront, and
-	that this bifurcation is enough to explain the observed robustness of
-	somitogenesis and the independence of specific initial condition. 
-	To the best of our understanding, this hybrid model has
-	a couple of quintessential features: it explains why somitogenesis may occur in the 
-	absence of a wavefront (albeit in an irregular fashion), and how the process 
-	achieves robustness as a consequence of the wavefront.
+		
+We further tested the system robustness to added noise. To do so, we performed simulations in which additive white noise was added to both variables ($a$ and $r$). In Fig.~\ref{Fig05}, we show the results of a typical simulation in which the coefficient of variation of the added noise is $c_v = 0.05$ (relative to the corresponding variable steady-state value). Observe that somite formation proceeds in a very precise way in this case. On the contrary, when $c_v = 0.1$, although somites continue emerging, they do it in a disordered and non-periodical fashion.\textcolor{red}{This happens because one of the effects of adding noise is altering the phase of the oscillating genes, and this modifies the timing of their interaction with the morphogen wavefront. To quantify robustness to added noise, we performed numerous simulations, with different noise intensities, and measured (via the standard deviation) the variability of somite sizes. The results are shown in Fig. xxx}
+
+
+\textcolor{red}{To summarize, the results presented in the above paragraphs confirm the hypothesis that, by properly modifying and coupling a Meinhardt-PORD model with a morphogen wavefront, it undergoes a bifurcation from a stable to an unstable limit cycle, as a result of its interaction with the wavefront, and that this bifurcation is enough to explain a clock and wavefront dynamics. To the best of our understanding, this hybrid model has a couple of quintessential features: it explains why somitogenesis may occur in the absence of a wavefront (albeit in an irregular fashion), and recovers all of the features of clock and wavefront models. In particular, it accounts for the robustness of somitogenesis to random variations in the initial conditions and to added random noise.}
 	
 	
 	\section{Concluding Remarks}
 	\label{conclu}
 	
-	We have studied a hybrid model for somitogenesis, which incorporates characteristics of the PORD (diffusion of the regulatory \textcolor{red}{proteins}) and clock-and-wavefront (the wavefront) models. By assuming that both the activator and the repressor \textcolor{red}{proteins} diffuse (the activator having a much smaller diffusion coefficient), the model undergoes a bifurcation, from a stable to an unstable limit cycle, as the value of the parameter accounting for the background regulatory input of the activator decreases. From a biological perspective, the bifurcation just described allows the model to explain why somites can form in the absence of a wavefront (which traditional front and wavefront models failed to explain), reassesses the role of the wavefront as a conductor for somitogenesis, and makes the model behavior robust to random fluctuations, as  well as independent from specific initial conditions; notice that the latter are two of the weak points of the original PORD model.  
+\textcolor{red}{We have expanded an equivalent Meinhardt-PORD model (by assuming that not only the repressor but also the activator diffuse) and coupled it with a morphogen wavefront, to have a hybrid model for somitogenesis,} that incorporates characteristics of the Meinhardt-PORD and clock-and-wavefront models.  This hybrid model undergoes a bifurcation, from a stable to an unstable limit cycle, as the value of the parameter accounting for the background regulatory input of the activator decreases. From a biological perspective, the bifurcation just described allows the model to explain why somites can form in the absence of a wavefront (which traditional front and wavefront models failed to explain), reassesses the role of the wavefront as a conductor for somitogenesis, and makes the model behavior robust to random fluctuations, as well as independent from specific initial conditions; notice that the latter are two of the weak points of the original PORD model. 
 	
-	In the clock and wavefront models, there is a consensus that the oscillatory behavior is originated by a gene network with time-delayed negative feedback regulation \cite{Monk2003, Lewis2003}. This claim is supported by multiple experimental reports, which have elucidated some of the underlying regulatory mechanisms \cite{Schroter2012}. In contrast, the present and the Cotterell~{\em et al.}~\cite{Cotterell2015} models not only rely on a different gene network architecture to generate oscillations, but the genes in the network are hypothetical. From this perspective, the weight of experimental evidence seems to favor clock and wavefront models. Nonetheless, upon taking this into consideration, we believe that we have provided convincing evidence that reaction-diffusion and positional information (wavefront) mechanisms could work together in somitogenesis. Further investigating this possibility may allow a better understanding of such a fascinating phenomenon.
+	In the clock and wavefront models, there is a consensus that the oscillatory behavior is originated by a gene network with time-delayed negative feedback regulation \cite{Monk2003, Lewis2003}. This claim is supported by multiple experimental reports, which have elucidated some of the underlying regulatory mechanisms \cite{Schroter2012}. In contrast, the present model (together with Meinhardt-PORD models) not only relies on a different gene network architecture to generate oscillations, but the genes in the network are hypothetical. From this perspective, the weight of experimental evidence seems to favor clock and wavefront models. Nonetheless, upon taking this into consideration, we believe that we have provided convincing evidence that reaction-diffusion and positional information (wavefront) mechanisms could work together in somitogenesis. Further investigating this possibility may allow a better understanding of such a fascinating phenomenon.
 	
 	
 \section*{Acknowledgements}
@@ -448,6 +356,7 @@ We employed different initial conditions along the present work and they are  sp
 JP-H thanks CONACYT-México for granting him a doctoral scholarship. VFBM thanks the financial support by Asociación Mexicana de Cultura AC. MS acknowledges the financial support of CONACYT-México, grants INFRA-302610 and 568462. 
 
 \section*{Data availability statement}
+
 
 The data that support the findings of this study are available from the corresponding author upon reasonable request.
 	
@@ -460,13 +369,27 @@ The data that support the findings of this study are available from the correspo
 	\section{Somite pattern-formation dynamical features}
 	\label{app:bif}
 	%\setcounter{equation}{0}
-	%\setcounter{figure}{0}    
+	%\setcounter{figure}{0}  
 	%\renewcommand\thefigure{\thesection.\arabic{figure}}
 	%\renewcommand\theequation{\thesection.\arabic{equation}}
-	System~\eqref{eq078910}, along with homogenous Neumann boundary conditions, gathers the essential ingredients of somite pattern-formation dynamics. Particularly, the kinetic terms consist of Hill functions, whose coefficients corresponding to a non-negative cooperative interaction. Thus, we assume that $n_3 = 1$ and $n_1 = n_2 = n\geq1$ as well as $\mu=1$. Initially, we set $d_a=d_r=0$. In so doing, we get the purely kinetic system:
+
+	
+	\begin{figure} %[t!]
+		\centering
+		\includegraphics[width=3in]{Figures/ApFigure01a.pdf} \\
+		\includegraphics[width=2in]{Figures/ApFigure01b}
+		\includegraphics[width=2in]{Figures/ApFigure01c} \\
+		\includegraphics[width=2in]{Figures/ApFigure01d}
+		\includegraphics[width=2in]{Figures/ApFigure01e}
+		\caption{Bifurcation diagrams of system~\eqref{eqA12} for slowly varying: (a)~background regulatory input of activator $\beta$, effective half-saturation parameters (b)~$k_1$, (c)~$k_2$ and (d)~$k_3$, and (e)~Hill coefficient~$n$. Blue (orange) solid lines correspond to stable (unstable) branches of steady states, and green (red) lines are stable (unstable) limit-cycle branches. Squares (filled circle) indicate supercritical (subcritical) Hopf bifurcations, and triangle is for indicating fold bifurcations. Other parameter set values are $k_1 = 0.05$, $k_2 = 0.01$, $k_3 = 2.0$, $n=3.0$, and $\beta=0.5$, respectively.}
+		\label{FigA01}
+	\end{figure}
+
+
+	System~\eqref{eq078910}, along with homogenous Neumann boundary conditions, gathers the essential ingredients of somite pattern-formation dynamics. Particularly, the kinetic terms consist of Hill functions, whose coefficients corresponding to a non-negative cooperative interaction. Thus, we assume that $n_3 = 1$ and $n_1 = n_2 = n\geq1$ as well as $\mu=1$. \textcolor{red}{We start by analyzing the temporal behavior of the homogeneous system. To this end,} we set $d_a=d_r=0$. In so doing, we get the purely kinetic system:
 	\begin{subequations}\label{eqA12}
 		\begin{gather}\label{eqAR12}
-		\frac{da}{dt}  = f(a,r)\,, \quad %\label{eqA1} \\[2mm]
+		\frac{da}{dt} = f(a,r)\,, \quad %\label{eqA1} \\[2mm]
 		\dfrac{dr}{dt} = g(a,r)\,, %\label{eqA2}
 		\end{gather}
 		where the field components are given by
@@ -479,7 +402,7 @@ The data that support the findings of this study are available from the correspo
 %	\begin{subequations}\label{eqA34}
 %		\begin{gather}\label{eqA34}
 %		a = \displaystyle \frac{\beta + (a / k_1)^{n}}{1 + (a / k_1)^{n} + (r /
-%			k_2)^{n}}\,, \quad%\label{eqA3}  \\[2mm]
+%			k_2)^{n}}\,, \quad%\label{eqA3} \\[2mm]
 %		r = \frac{(a / k_3)}{1 + (a / k_3)}],. %\label{eqA4}
 %		\end{gather}
 %	\end{subequations}
@@ -493,32 +416,21 @@ The data that support the findings of this study are available from the correspo
 %	a-(a/k_1)^n+a^{n+1}/k_1^n +a\left(\frac{a/k_3}{k_2(1+a/k_3)}\right)^n =
 %	\beta.
 %	\end{equation}
-	{From~\eqref{eq:ga}, notice that $g(a)$ satisfies that: (i)~$g(0) = 0$, and (ii)~$g(a)\rightarrow$ +$\infty$, when  $a\rightarrow +\infty$. In consequence, there exists $a^*>0$ such that $g(a^*) = \beta> 0 $, which further implies that $w^*=(a^*, r^*)$ is a steady-state of system~\eqref{eqA12}, with $a^* >0$ and $r^*>0$, since }
+	{From~\eqref{eq:ga}, notice that $g(a)$ satisfies that: (i)~$g(0) = 0$, and (ii)~$g(a)\rightarrow$ +$\infty$, when $a\rightarrow +\infty$. In consequence, there exists $a^*>0$ such that $g(a^*) = \beta> 0 $, which further implies that $w^*=(a^*, r^*)$ is a steady-state of system~\eqref{eqA12}, with $a^* >0$ and $r^*>0$, since }
 	\begin{gather*}
 	r^* = \frac{a^*}{k_3+a^*}\,.
 	\end{gather*}
-	In other words, the existence of at least one steady-state in the first quadrant is guaranteed. We can straightforwardly  prove, from the Poincare-Bendixon theorem, that a limit-cycle family emerges as a result of this steady-state undergoing a Hopf bifurcation (HB). In order to disclose this implication, we performed a numerical continuation by using the algorithms implemented in XPPAUT (Ermentrout, 1987). The resulting bifurcation diagrams obtained by slowly varying each parameter of system~\eqref{eqA12} are depicted in Fig.~\ref{FigA01}. Notice that the system undergoes HBs for  the parameters values in Table~\ref{Tab01}. In Fig.~\ref{FigA01}(a), a single HB for parameter $\beta$ takes place, where periodic orbits vanish at the bifurcation point HB. This suggests that the lower the $\beta$-input value, the larger the amplitude and the longer the period of stable orbits for the homogeneous system; and that no periodic orbits occur for $\beta\gg1$, nonetheless. In contrast, as is shown in Figs.~\ref{FigA01}(b)-(d), two supercritical HB points occur for parameters $k_1$, $k_2$ and $k_3$, which determine a finite interval for each parameter wherein a family of periodic orbits exist. Interestingly, a bi-stability interval for parameter $n$ is delimited by $n$-values where a subcritical HB and fold bifurcation (LP) points happen. That is, a branch consisting of unstable limit cycles emanates from the subcritical HB, which stabilizes at the LP points. Hence, stable steady-states coexist with stable limit-cycles for this interval, where the unstable periodic branch plays a critical role for initial states. This result, as is depicted in Fig.~\ref{FigA01}(e), indicates that an on-and-off gene switch is present, which provides hysteretical features triggered by key values of the characteristic Hill coefficient. We may argue from this that the cooperativity in the gene regulatory network favors system robustness to parameter variations.
-	
-	\begin{figure} %[t!]
-		\centering
-		\includegraphics[width=3.8in]{Figures/ApFigure01a.pdf} \\
-		\includegraphics[width=2.8in]{Figures/ApFigure01b}
-		\includegraphics[width=2.9in]{Figures/ApFigure01c} \\
-		\includegraphics[width=2.8in]{Figures/ApFigure01d}
-		\includegraphics[width=3.0in]{Figures/ApFigure01e}
-		\caption{Bifurcation diagrams of system~\eqref{eqA12} for slowly varying: (a)~background regulatory input of activator $\beta$,  effective half-saturation parameters (b)~$k_1$, (c)~$k_2$ and (d)~$k_3$, and (e)~Hill coefficient~$n$. Blue (orange) solid lines correspond to stable (unstable) branches of steady states, and green (red) lines are stable (unstable) limit-cycle branches. Squares (filled circle) indicate supercritical (subcritical) Hopf bifurcations, and triangle is for indicating fold bifurcations. Other parameter set values are $k_1 = 0.05$, $k_2 = 0.01$, $k_3 = 2.0$, $n=3.0$, and $\beta=0.5$, respectively.}
-		\label{FigA01}
-	\end{figure}
+	In other words, the existence of at least one steady-state in the first quadrant is guaranteed. We can straightforwardly prove, from the Poincare-Bendixon theorem, that a limit-cycle family emerges as a result of this steady-state undergoing a Hopf bifurcation (HB). In order to disclose this implication, we performed a numerical continuation by using the algorithms implemented in XPPAUT (Ermentrout, 1987). The resulting bifurcation diagrams obtained by slowly varying each parameter of system~\eqref{eqA12} are depicted in Fig.~\ref{FigA01}. Notice that the system undergoes HBs for the parameters values in Table~\ref{Tab01}. In Fig.~\ref{FigA01}(a), a single HB for parameter $\beta$ takes place, where periodic orbits vanish at the bifurcation point HB. This suggests that the lower the $\beta$-input value, the larger the amplitude and the longer the period of stable orbits for the homogeneous system; and that no periodic orbits occur for $\beta\gg1$, nonetheless. In contrast, as is shown in Figs.~\ref{FigA01}(b)-(d), two supercritical HB points occur for parameters $k_1$, $k_2$ and $k_3$, which determine a finite interval for each parameter wherein a family of periodic orbits exist. Interestingly, a bi-stability interval for parameter $n$ is delimited by $n$-values where a subcritical HB and fold bifurcation (LP) points happen. That is, a branch consisting of unstable limit cycles emanates from the subcritical HB, which stabilizes at the LP points. Hence, stable steady-states coexist with stable limit-cycles for this interval, where the unstable periodic branch plays a critical role for initial states. This result, as is depicted in Fig.~\ref{FigA01}(e), indicates that an on-and-off gene switch is present, which provides hysteretical features triggered by key values of the characteristic Hill coefficient. We may argue from this that the cooperativity in the gene regulatory network favors system robustness to parameter variations.
 	
 %\section{Spatial stability analysis}
 %\label{app:stabil}
 %	
 %\setcounter{equation}{0}
-%\setcounter{figure}{0}    
+%\setcounter{figure}{0}  
 %\renewcommand\thefigure{\thesection.\arabic{figure}}
 %\renewcommand\theequation{\thesection.\arabic{equation}}
 	
-On the other hand, as has been discussed above, the external regulation of gene $A$ is an essential ingredient of the somite pattern formation dynamics. Recall that this element is captured by $\beta$. In addition, the activator diffusion also plays a crucial role in the somite pattern-formation dynamics. We study now the interplay between $\beta$ and $d_a$, which triggers the somite formation mechanism that we have proposed. To do so, we include diffusion terms in~\eqref{eqA12} to get the reaction-diffusion system
+\textcolor{red}{We turn now our attention to the system spatial dynamics}. As has been discussed above, the external regulation of gene $A$ \textcolor{red}{allows us to couple the gene network with a morphogen wavefront}. Recall that this element is captured by $\beta$. In addition, \textcolor{red}{we have shown that} activator diffusion \textcolor{red}{is crucial to get an efficient coupling}. We study now the interplay between $\beta$ and $d_a$, which triggers the somite formation mechanism that we have proposed. To do so, we include diffusion terms in~\eqref{eqA12} to get the reaction-diffusion system
 %As before, we assume that $n_3 = \mu =1, n_2=n_1 = n$, and so rewrite the reaction-diffusion system~\eqref{eq078910} as follows:
 %	\begin{subequations}
 		\begin{gather}\label{eqnB01234}
@@ -535,7 +447,7 @@ Now, upon defining $w=(a,r)^T$, we obtain that system~\eqref{eqnB01234} can be s
 %	\begin{gather}\label{eqvector}
 %	w_t = F(w) + D \nabla^2 w\,, 
 %	\end{gather}
-	$F(w) = \left(f(a,r),g(a,r)\right)^T$ and $D=\textrm{diag}\left(d_a, d_r \right)$. In so doing, for an isolated root of $F(w)=0$ given by $w^*=(a^*,r^*)$, system~\eqref{eqnB01234} has a local solution of the form  
+	$F(w) = \left(f(a,r),g(a,r)\right)^T$ and $D=\textrm{diag}\left(d_a, d_r \right)$. In so doing, for an isolated root of $F(w)=0$ given by $w^*=(a^*,r^*)$, system~\eqref{eqnB01234} has a local solution of the form 
 	\begin{gather}\label{eqnB06}
 	w(x,t)= \sum_{m=0}^{\infty}\gamma_me^{-\lambda\left(\kappa^2\right) t}w_m(x)\,,%\cos(\kappa x)\,,
 	\end{gather}
@@ -582,11 +494,11 @@ These conditions provide the ingredients that give place to non homogeneous spat
 	\includegraphics[width=3.2in]{Figures/ApFigure02b}\\
 	\includegraphics[width=3.2in]{Figures/ApFigure02c} 
 	\includegraphics[width=3.2in]{Figures/ApFigure02d} 
-	\caption{Samples of dispersion relations for each region depicted in Fig.~\ref{FigB01}. The real parts of the eigenvalues are in solid lines, and the imaginary parts in dashed lines.  Panel (a) corresponds to region IV, where the real part is negative for all $\kappa^2$; in panel (b) the real part has two roots, which gives place to a Turing type stationary pattern; in panel (c), Turing and Hopf bifurcations occur for different wave modes: the real part line is positive for wave modes corresponding to non-zero imaginary part, and a Turing instability occurs as in panel (b); in  panel (d), a typical Hopf bifurcation feature is exhibited as the real part is positive only for non-zero portions of the imaginary part. The values of $d_a$ and $\beta$ are respectively shown in each panel, and other parameters values are $k_1=5\times10^{-2}, k_2=10^{-2}, k_3=2.0, n=3.0$.}
+	\caption{Samples of dispersion relations for each region depicted in Fig.~\ref{FigB01}. The real parts of the eigenvalues are in solid lines, and the imaginary parts in dashed lines. Panel (a) corresponds to region IV, where the real part is negative for all $\kappa^2$; in panel (b) the real part has two roots, which gives place to a Turing type stationary pattern; in panel (c), Turing and Hopf bifurcations occur for different wave modes: the real part line is positive for wave modes corresponding to non-zero imaginary part, and a Turing instability occurs as in panel (b); in panel (d), a typical Hopf bifurcation feature is exhibited as the real part is positive only for non-zero portions of the imaginary part. The values of $d_a$ and $\beta$ are respectively shown in each panel, and other parameters values are $k_1=5\times10^{-2}, k_2=10^{-2}, k_3=2.0, n=3.0$.}
 	\label{FigB02}
 \end{figure}
 
-The four kinds of patterns depicted in Fig.~\ref{FigB01} are classified according to the roots of~\eqref{eq:lambda}. A sample of each root-solution type is plotted in Fig \ref{FigB02}, where solid curves are  the real part of the eigenvalues and the dashed curves correspond to the imaginary part. The Turing pattern region is labelled by I; as can be seen there, the dispersion relation has a finite positive maximum which gives place to an interval of unstable wave modes. For region II, a Turing-Hopf pattern dispersion relation is depicted, where the imaginary part is non zero for positive portions of the real part, and when the imaginary part colapses to zero, the real part is as in the Turing region. That is, this stability feature gathers two main dynamical ingredients: oscillatory and non oscillatory unstable modes in two finite disconnected subintervals. In region III, a Hopf pattern is characterized by having a dispersion relation in which the real part is only non negative for wave modes where the imaginary part is non zero. Finally, region IV corresponds to no pattern, which is characterized by having a negative real part of the dispersion relation for all wave modes, and hence the homogeneous steady state suffers no symmetry breaking. In other words, the combination of real and imaginary parts of $\lambda(\kappa^2)$ in~\eqref{eqnB06}, provided by~\eqref{eqnB13}, determines each pattern type as well as transitions between regions. For a detailed discussion about  this approach, see~\cite{liu}.
+The four kinds of patterns depicted in Fig.~\ref{FigB01} are classified according to the roots of~\eqref{eq:lambda}. A sample of each root-solution type is plotted in Fig \ref{FigB02}, where solid curves are the real part of the eigenvalues and the dashed curves correspond to the imaginary part. The Turing pattern region is labelled by I; as can be seen there, the dispersion relation has a finite positive maximum which gives place to an interval of unstable wave modes. For region II, a Turing-Hopf pattern dispersion relation is depicted, where the imaginary part is non zero for positive portions of the real part, and when the imaginary part colapses to zero, the real part is as in the Turing region. That is, this stability feature gathers two main dynamical ingredients: oscillatory and non oscillatory unstable modes in two finite disconnected subintervals. In region III, a Hopf pattern is characterized by having a dispersion relation in which the real part is only non negative for wave modes where the imaginary part is non zero. Finally, region IV corresponds to no pattern, which is characterized by having a negative real part of the dispersion relation for all wave modes, and hence the homogeneous steady state suffers no symmetry breaking. In other words, the combination of real and imaginary parts of $\lambda(\kappa^2)$ in~\eqref{eqnB06}, provided by~\eqref{eqnB13}, determines each pattern type as well as transitions between regions. For a detailed discussion about this approach, see~\cite{liu}.
 
 \begin{figure}[t!]
  		\includegraphics[width=3.2in]{Figures/ApFigure03a}
