@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.19)  26 MAR 2021 07:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.19)  27 MAR 2021 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,46 +529,46 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig04cRev.pdf): PDF inclusion
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig04dRev.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
-<Figures/Fig04_1a.pdf, id=554, 426.34808pt x 306.93985pt>
+<Figures/Fig04_1a.pdf, id=554, 408.90364pt x 301.99792pt>
 File: Figures/Fig04_1a.pdf Graphic file (type pdf)
 <use Figures/Fig04_1a.pdf>
 Package pdftex.def Info: Figures/Fig04_1a.pdf  used on input line 318.
-(pdftex.def)             Requested size: 216.81pt x 156.08762pt.
-<Figures/Fig04_1b.pdf, id=555, 426.34808pt x 306.93985pt>
+(pdftex.def)             Requested size: 216.81pt x 160.12724pt.
+<Figures/Fig04_1b.pdf, id=555, 408.90364pt x 301.99792pt>
 File: Figures/Fig04_1b.pdf Graphic file (type pdf)
 <use Figures/Fig04_1b.pdf>
 Package pdftex.def Info: Figures/Fig04_1b.pdf  used on input line 319.
-(pdftex.def)             Requested size: 216.81pt x 156.08762pt.
+(pdftex.def)             Requested size: 216.81pt x 160.12724pt.
  [15 <./Figures/Fig04_1a.pdf> <./Figures/Fig04_1b.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig04_1b.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-<Figures/Fig06_1.pdf, id=620, 464.42886pt x 290.24466pt>
+<Figures/Fig06_1.pdf, id=607, 415.79976pt x 286.25319pt>
 File: Figures/Fig06_1.pdf Graphic file (type pdf)
 <use Figures/Fig06_1.pdf>
 Package pdftex.def Info: Figures/Fig06_1.pdf  used on input line 332.
-(pdftex.def)             Requested size: 216.81pt x 135.49382pt.
-<Figures/Fig05aRev.pdf, id=621, 451.19818pt x 323.8844pt>
+(pdftex.def)             Requested size: 216.81pt x 149.25871pt.
+<Figures/Fig05aRev.pdf, id=608, 451.19818pt x 323.8844pt>
 File: Figures/Fig05aRev.pdf Graphic file (type pdf)
 <use Figures/Fig05aRev.pdf>
 Package pdftex.def Info: Figures/Fig05aRev.pdf  used on input line 339.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Figures/Fig05bRev.pdf, id=622, 451.19818pt x 323.8844pt>
+<Figures/Fig05bRev.pdf, id=609, 451.19818pt x 323.8844pt>
 File: Figures/Fig05bRev.pdf Graphic file (type pdf)
 <use Figures/Fig05bRev.pdf>
 Package pdftex.def Info: Figures/Fig05bRev.pdf  used on input line 340.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Figures/Fig05cRev.pdf, id=623, 451.19818pt x 323.8844pt>
+<Figures/Fig05cRev.pdf, id=610, 451.19818pt x 323.8844pt>
 File: Figures/Fig05cRev.pdf Graphic file (type pdf)
 <use Figures/Fig05cRev.pdf>
 Package pdftex.def Info: Figures/Fig05cRev.pdf  used on input line 341.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Figures/Fig06_2.pdf, id=634, 455.2153pt x 290.24466pt>
+<Figures/Fig06_2.pdf, id=621, 406.6274pt x 286.25319pt>
 File: Figures/Fig06_2.pdf Graphic file (type pdf)
 <use Figures/Fig06_2.pdf>
 Package pdftex.def Info: Figures/Fig06_2.pdf  used on input line 359.
-(pdftex.def)             Requested size: 216.81pt x 138.23965pt.
+(pdftex.def)             Requested size: 216.81pt x 152.62634pt.
  [16] [17 <./Figures/Fig06_1.pdf> <./Figures/Fig05aRev.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig05aRev.pdf): PDF inclusion
@@ -582,27 +582,27 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig05bRev.pdf): PDF inclusion
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig05cRev.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >] [18 <./Figures/Fig06_2.pdf>]
-<Figures/ApFigure01a.pdf, id=791, 526.37596pt x 341.43306pt>
+<Figures/ApFigure01a.pdf, id=750, 526.37596pt x 341.43306pt>
 File: Figures/ApFigure01a.pdf Graphic file (type pdf)
 <use Figures/ApFigure01a.pdf>
 Package pdftex.def Info: Figures/ApFigure01a.pdf  used on input line 402.
 (pdftex.def)             Requested size: 216.81pt x 140.63446pt.
-<Figures/ApFigure01b.pdf, id=792, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01b.pdf, id=751, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01b.pdf Graphic file (type pdf)
 <use Figures/ApFigure01b.pdf>
 Package pdftex.def Info: Figures/ApFigure01b.pdf  used on input line 403.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<Figures/ApFigure01c.pdf, id=793, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01c.pdf, id=752, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01c.pdf Graphic file (type pdf)
 <use Figures/ApFigure01c.pdf>
 Package pdftex.def Info: Figures/ApFigure01c.pdf  used on input line 404.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<Figures/ApFigure01d.pdf, id=794, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01d.pdf, id=753, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01d.pdf Graphic file (type pdf)
 <use Figures/ApFigure01d.pdf>
 Package pdftex.def Info: Figures/ApFigure01d.pdf  used on input line 405.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<Figures/ApFigure01e.pdf, id=795, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01e.pdf, id=754, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01e.pdf Graphic file (type pdf)
 <use Figures/ApFigure01e.pdf>
 Package pdftex.def Info: Figures/ApFigure01e.pdf  used on input line 406.
@@ -624,58 +624,58 @@ on: multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure01e.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >] [21] [22]
-<Figures/ApFigure01.pdf, id=946, 617.42479pt x 273.14645pt>
+<Figures/ApFigure01.pdf, id=906, 617.42479pt x 273.14645pt>
 File: Figures/ApFigure01.pdf Graphic file (type pdf)
 <use Figures/ApFigure01.pdf>
 Package pdftex.def Info: Figures/ApFigure01.pdf  used on input line 510.
 (pdftex.def)             Requested size: 361.34999pt x 159.86296pt.
-<Figures/ApFigure02a.pdf, id=947, 433.62pt x 301.125pt>
+<Figures/ApFigure02a.pdf, id=907, 433.62pt x 301.125pt>
 File: Figures/ApFigure02a.pdf Graphic file (type pdf)
 <use Figures/ApFigure02a.pdf>
 Package pdftex.def Info: Figures/ApFigure02a.pdf  used on input line 516.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<Figures/ApFigure02b.pdf, id=948, 433.62pt x 301.125pt>
+<Figures/ApFigure02b.pdf, id=908, 433.62pt x 301.125pt>
 File: Figures/ApFigure02b.pdf Graphic file (type pdf)
 <use Figures/ApFigure02b.pdf>
 Package pdftex.def Info: Figures/ApFigure02b.pdf  used on input line 517.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<Figures/ApFigure02c.pdf, id=949, 433.62pt x 301.125pt>
+<Figures/ApFigure02c.pdf, id=909, 433.62pt x 301.125pt>
 File: Figures/ApFigure02c.pdf Graphic file (type pdf)
 <use Figures/ApFigure02c.pdf>
 Package pdftex.def Info: Figures/ApFigure02c.pdf  used on input line 518.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<Figures/ApFigure02d.pdf, id=950, 433.62pt x 301.125pt>
+<Figures/ApFigure02d.pdf, id=910, 433.62pt x 301.125pt>
 File: Figures/ApFigure02d.pdf Graphic file (type pdf)
 <use Figures/ApFigure02d.pdf>
 Package pdftex.def Info: Figures/ApFigure02d.pdf  used on input line 519.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
  [23]
-<Figures/ApFigure03a.pdf, id=968, 433.62pt x 289.08pt>
+<Figures/ApFigure03a.pdf, id=928, 433.62pt x 289.08pt>
 File: Figures/ApFigure03a.pdf Graphic file (type pdf)
 <use Figures/ApFigure03a.pdf>
 Package pdftex.def Info: Figures/ApFigure03a.pdf  used on input line 527.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure03b.pdf, id=969, 433.62pt x 289.08pt>
+<Figures/ApFigure03b.pdf, id=929, 433.62pt x 289.08pt>
 File: Figures/ApFigure03b.pdf Graphic file (type pdf)
 <use Figures/ApFigure03b.pdf>
 Package pdftex.def Info: Figures/ApFigure03b.pdf  used on input line 528.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure03c.pdf, id=970, 433.62pt x 289.08pt>
+<Figures/ApFigure03c.pdf, id=930, 433.62pt x 289.08pt>
 File: Figures/ApFigure03c.pdf Graphic file (type pdf)
 <use Figures/ApFigure03c.pdf>
 Package pdftex.def Info: Figures/ApFigure03c.pdf  used on input line 529.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure03d.pdf, id=971, 433.62pt x 289.08pt>
+<Figures/ApFigure03d.pdf, id=931, 433.62pt x 289.08pt>
 File: Figures/ApFigure03d.pdf Graphic file (type pdf)
 <use Figures/ApFigure03d.pdf>
 Package pdftex.def Info: Figures/ApFigure03d.pdf  used on input line 530.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure04a.pdf, id=980, 437.23979pt x 287.16283pt>
+<Figures/ApFigure04a.pdf, id=940, 437.23979pt x 287.16283pt>
 File: Figures/ApFigure04a.pdf Graphic file (type pdf)
 <use Figures/ApFigure04a.pdf>
 Package pdftex.def Info: Figures/ApFigure04a.pdf  used on input line 539.
 (pdftex.def)             Requested size: 231.26378pt x 151.88446pt.
-<Figures/ApFigure04b.pdf, id=981, 433.62pt x 289.08pt>
+<Figures/ApFigure04b.pdf, id=941, 433.62pt x 289.08pt>
 File: Figures/ApFigure04b.pdf Graphic file (type pdf)
 <use Figures/ApFigure04b.pdf>
 Package pdftex.def Info: Figures/ApFigure04b.pdf  used on input line 540.
@@ -734,22 +734,24 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
 -dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on SomitasRD.pdf (30 pages, 9429697 bytes).
+lic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on SomitasRD.pdf (30 pages, 9493802 bytes).
 PDF statistics:
- 1545 PDF objects out of 1728 (max. 8388607)
- 965 compressed objects within 10 object streams
+ 1505 PDF objects out of 1728 (max. 8388607)
+ 993 compressed objects within 10 object streams
  128 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
