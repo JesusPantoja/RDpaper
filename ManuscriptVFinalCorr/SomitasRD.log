@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.19)  26 MAR 2021 07:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.12.7)  28 MAR 2021 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **SomitasRD.tex
 (./SomitasRD.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-07-17>
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-2.cls
 Document Class: revtex4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/re
 vtex/ for documentation)
@@ -25,46 +25,46 @@ Class revtex4-2 Info: Repairing broken LaTeX eqnarray on input line 365.
 Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
 note on input line 440.
 Class revtex4-2 Info: Repairing broken LateX \@sect on input line 762.
-\intertabularlinepenalty=\count167
-\@tbpen=\count168
+\intertabularlinepenalty=\count168
+\@tbpen=\count169
 \@arstrutbox@hline=\box45
 Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1793.
 Class revtex4-2 Info: Making \typeout \long on input line 2053.
 ltxfront[2019/01/18/14:29:48 4.2c frontmatter package (AO,DPC,MD)]
-\c@affil=\count169
-\c@collab=\count170
+\c@affil=\count170
+\c@collab=\count171
 \absbox=\box46
 ltxgrid[2019/01/18/14:29:48 4.2c page grid package (portions licensed from W. E
 . Baxter web at superscript.com)]
-\c@linecount=\count171
-\output@latex=\toks14
+\c@linecount=\count172
+\output@latex=\toks15
 \box@size@1=\box47
 \box@size@2=\box48
 \@protection@box=\box49
-\@topmark@saved=\toks15
+\@topmark@saved=\toks16
 \footins@saved=\box50
 \footins@recovered=\box51
 \column@recovered=\box52
 \pagesofar=\box53
 \footsofar=\box54
-\pagegrid@col=\count172
+\pagegrid@col=\count173
 
 Class revtex4-2 Warning: Failed to recognize \@vspace, \@vspacer, \@no@pgbk, \@
 newline, and \\; no patches applied. Please get a more up-to-date class, .
 
-\c@part=\count173
-\c@section=\count174
-\c@subsection=\count175
-\c@subsubsection=\count176
-\c@paragraph=\count177
-\c@subparagraph=\count178
+\c@part=\count174
+\c@section=\count175
+\c@subsection=\count176
+\c@subsubsection=\count177
+\c@paragraph=\count178
+\c@subparagraph=\count179
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
-\c@figure=\count179
+\c@figure=\count180
 \fbox@1=\box55
-\c@table=\count180
+\c@table=\count181
 \fbox@2=\box56
-\c@video=\count181
+\c@video=\count182
 \fbox@4=\box57
 \@bibdataout=\write3
 \widetext@top=\box58
@@ -94,7 +94,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks16
+\@emptytoks=\toks17
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -111,7 +111,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks18
 \ex@=\dimen134
 )
 LaTeX Info: Redefining \text on input line 28.
@@ -123,13 +123,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count182
+\inf@bad=\count183
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count183
-\leftroot@=\count184
+\uproot@=\count184
+\leftroot@=\count185
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count185
-\DOTSCASE@=\count186
+\classnum@=\count186
+\DOTSCASE@=\count187
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -138,26 +138,26 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen136
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count187
-\c@MaxMatrixCols=\count188
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
 \dotsspace@=\muskip16
-\c@parentequation=\count189
-\dspbrk@lvl=\count190
-\tag@help=\toks18
-\row@=\count191
-\column@=\count192
-\maxfields@=\count193
-\andhelp@=\toks19
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks19
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks20
 \eqnshift@=\dimen137
 \alignsep@=\dimen138
 \tagshift@=\dimen139
 \tagwidth@=\dimen140
 \totwidth@=\dimen141
 \lineht@=\dimen142
-\@envbody=\toks20
+\@envbody=\toks21
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -170,7 +170,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip53
 \bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count194
+\c@NAT@ctr=\count195
 )
 Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7588.
 
@@ -183,8 +183,8 @@ LaTeX Info: Redefining \REV@mathfrak on input line 125.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -195,17 +195,17 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count195
-\uc@combtoks=\toks24
-\uc@combtoksb=\toks25
-\uc@temptokena=\toks26
+\uc@secondtry=\count196
+\uc@combtoks=\toks25
+\uc@combtoksb=\toks26
+\uc@temptokena=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks27
+\KV@toks@=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
@@ -225,16 +225,16 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@width=\dimen144
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -266,11 +266,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen145
-\Hy@linkcounter=\count196
-\Hy@pagecounter=\count197
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -278,18 +278,17 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count198
-\pdfmajorversion=\count199
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+\Hy@SavedSpaceFactor=\count199
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-LaTeX Info: Redefining \href on input line 5070.
+Package hyperref Info: Bookmarks ON on input line 4717.
+LaTeX Info: Redefining \href on input line 4987.
 \c@Hy@tempcnt=\count266
-LaTeX Info: Redefining \url on input line 5159.
+LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen146
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
@@ -302,15 +301,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count267
 \Field@Width=\dimen147
 \Fld@charsize=\dimen148
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
 
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
@@ -322,7 +321,7 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
@@ -359,7 +358,7 @@ Class revtex4-2 Info: mcite was not loaded (OK!) on input line 45.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count273
 \l__pdf_internal_box=\box62
 )
@@ -392,12 +391,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \scratchbox=\box63
 \nofMPsegments=\count275
 \nofMParguments=\count276
-\everyMPshowfont=\toks28
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count277
 \MPscratchDim=\dimen150
 \MPnumerator=\count278
 \makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks29
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -474,12 +473,12 @@ Package pdftex.def Info: Figures/Fig02cRev.pdf  used on input line 249.
 (pdftex.def)             Requested size: 144.54pt x 106.7784pt.
  [10] [11 <./Figures/Fig02aRev.pdf> <./Figures/Fig02bRev.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig02bRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/Fig02bRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 > <./Figures/Fig02cRev.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig02cRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/Fig02cRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 >]
 <Figures/Fig03aRev.pdf, id=355, 438.43173pt x 323.8844pt>
 File: Figures/Fig03aRev.pdf Graphic file (type pdf)
@@ -514,202 +513,203 @@ Package pdftex.def Info: Figures/Fig04dRev.pdf  used on input line 294.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
  [13 <./Figures/Fig03aRev.pdf> <./Figures/Fig03bRev.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig03bRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/Fig03bRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 >] [14 <./Figures/Fig04aRev.pdf> <./Figures/Fig04bRev.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig04bRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/Fig04bRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 > <./Figures/Fig04cRev.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig04cRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/Fig04cRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 > <./Figures/Fig04dRev.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig04dRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/Fig04dRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 >]
-<Figures/Fig04_1a.pdf, id=554, 426.34808pt x 306.93985pt>
+<Figures/Fig04_1a.pdf, id=557, 408.90364pt x 301.99792pt>
 File: Figures/Fig04_1a.pdf Graphic file (type pdf)
 <use Figures/Fig04_1a.pdf>
 Package pdftex.def Info: Figures/Fig04_1a.pdf  used on input line 318.
-(pdftex.def)             Requested size: 216.81pt x 156.08762pt.
-<Figures/Fig04_1b.pdf, id=555, 426.34808pt x 306.93985pt>
+(pdftex.def)             Requested size: 216.81pt x 160.12724pt.
+<Figures/Fig04_1b.pdf, id=558, 408.90364pt x 301.99792pt>
 File: Figures/Fig04_1b.pdf Graphic file (type pdf)
 <use Figures/Fig04_1b.pdf>
 Package pdftex.def Info: Figures/Fig04_1b.pdf  used on input line 319.
-(pdftex.def)             Requested size: 216.81pt x 156.08762pt.
- [15 <./Figures/Fig04_1a.pdf> <./Figures/Fig04_1b.pdf
+(pdftex.def)             Requested size: 216.81pt x 160.12724pt.
+ [15] [16 <./Figures/Fig04_1a.pdf> <./Figures/Fig04_1b.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig04_1b.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/Fig04_1b.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
 >]
-<Figures/Fig06_1.pdf, id=620, 464.42886pt x 290.24466pt>
+<Figures/Fig06_1.pdf, id=617, 415.79976pt x 286.25319pt>
 File: Figures/Fig06_1.pdf Graphic file (type pdf)
 <use Figures/Fig06_1.pdf>
 Package pdftex.def Info: Figures/Fig06_1.pdf  used on input line 332.
-(pdftex.def)             Requested size: 216.81pt x 135.49382pt.
-<Figures/Fig05aRev.pdf, id=621, 451.19818pt x 323.8844pt>
+(pdftex.def)             Requested size: 216.81pt x 149.25871pt.
+<Figures/Fig05aRev.pdf, id=618, 451.19818pt x 323.8844pt>
 File: Figures/Fig05aRev.pdf Graphic file (type pdf)
 <use Figures/Fig05aRev.pdf>
 Package pdftex.def Info: Figures/Fig05aRev.pdf  used on input line 339.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Figures/Fig05bRev.pdf, id=622, 451.19818pt x 323.8844pt>
+<Figures/Fig05bRev.pdf, id=619, 451.19818pt x 323.8844pt>
 File: Figures/Fig05bRev.pdf Graphic file (type pdf)
 <use Figures/Fig05bRev.pdf>
 Package pdftex.def Info: Figures/Fig05bRev.pdf  used on input line 340.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Figures/Fig05cRev.pdf, id=623, 451.19818pt x 323.8844pt>
+<Figures/Fig05cRev.pdf, id=620, 451.19818pt x 323.8844pt>
 File: Figures/Fig05cRev.pdf Graphic file (type pdf)
 <use Figures/Fig05cRev.pdf>
 Package pdftex.def Info: Figures/Fig05cRev.pdf  used on input line 341.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Figures/Fig06_2.pdf, id=634, 455.2153pt x 290.24466pt>
+ [17 <./Figures/Fig06_1.pdf> <./Figures/Fig05aRev.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Fig05aRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Figures/Fig05bRev.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Fig05bRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Figures/Fig05cRev.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Fig05cRev.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]
+<Figures/Fig06_2.pdf, id=727, 406.6274pt x 286.25319pt>
 File: Figures/Fig06_2.pdf Graphic file (type pdf)
 <use Figures/Fig06_2.pdf>
 Package pdftex.def Info: Figures/Fig06_2.pdf  used on input line 359.
-(pdftex.def)             Requested size: 216.81pt x 138.23965pt.
- [16] [17 <./Figures/Fig06_1.pdf> <./Figures/Fig05aRev.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig05aRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
-> <./Figures/Fig05bRev.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig05bRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
-> <./Figures/Fig05cRev.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Fig05cRev.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->] [18 <./Figures/Fig06_2.pdf>]
-<Figures/ApFigure01a.pdf, id=791, 526.37596pt x 341.43306pt>
+(pdftex.def)             Requested size: 216.81pt x 152.62634pt.
+ [18 <./Figures/Fig06_2.pdf>] [19]
+<Figures/ApFigure01a.pdf, id=760, 526.37596pt x 341.43306pt>
 File: Figures/ApFigure01a.pdf Graphic file (type pdf)
 <use Figures/ApFigure01a.pdf>
 Package pdftex.def Info: Figures/ApFigure01a.pdf  used on input line 402.
 (pdftex.def)             Requested size: 216.81pt x 140.63446pt.
-<Figures/ApFigure01b.pdf, id=792, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01b.pdf, id=761, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01b.pdf Graphic file (type pdf)
 <use Figures/ApFigure01b.pdf>
 Package pdftex.def Info: Figures/ApFigure01b.pdf  used on input line 403.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<Figures/ApFigure01c.pdf, id=793, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01c.pdf, id=762, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01c.pdf Graphic file (type pdf)
 <use Figures/ApFigure01c.pdf>
 Package pdftex.def Info: Figures/ApFigure01c.pdf  used on input line 404.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<Figures/ApFigure01d.pdf, id=794, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01d.pdf, id=763, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01d.pdf Graphic file (type pdf)
 <use Figures/ApFigure01d.pdf>
 Package pdftex.def Info: Figures/ApFigure01d.pdf  used on input line 405.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<Figures/ApFigure01e.pdf, id=795, 355.65945pt x 270.3012pt>
+<Figures/ApFigure01e.pdf, id=764, 355.65945pt x 270.3012pt>
 File: Figures/ApFigure01e.pdf Graphic file (type pdf)
 <use Figures/ApFigure01e.pdf>
 Package pdftex.def Info: Figures/ApFigure01e.pdf  used on input line 406.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
- [19] [20 <./Figures/ApFigure01a.pdf> <./Figures/ApFigure01b.pdf
+ [20] [21 <./Figures/ApFigure01a.pdf> <./Figures/ApFigure01b.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure01b.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/ApFigure01b.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
 > <./Figures/ApFigure01c.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure01c.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/ApFigure01c.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
 > <./Figures/ApFigure01d.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure01d.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/ApFigure01d.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
 > <./Figures/ApFigure01e.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure01e.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->] [21] [22]
-<Figures/ApFigure01.pdf, id=946, 617.42479pt x 273.14645pt>
+pdfTeX warning: pdflatex (file ./Figures/ApFigure01e.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [22] [23]
+<Figures/ApFigure01.pdf, id=919, 617.42479pt x 273.14645pt>
 File: Figures/ApFigure01.pdf Graphic file (type pdf)
 <use Figures/ApFigure01.pdf>
 Package pdftex.def Info: Figures/ApFigure01.pdf  used on input line 510.
 (pdftex.def)             Requested size: 361.34999pt x 159.86296pt.
-<Figures/ApFigure02a.pdf, id=947, 433.62pt x 301.125pt>
+<Figures/ApFigure02a.pdf, id=920, 433.62pt x 301.125pt>
 File: Figures/ApFigure02a.pdf Graphic file (type pdf)
 <use Figures/ApFigure02a.pdf>
 Package pdftex.def Info: Figures/ApFigure02a.pdf  used on input line 516.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<Figures/ApFigure02b.pdf, id=948, 433.62pt x 301.125pt>
+<Figures/ApFigure02b.pdf, id=921, 433.62pt x 301.125pt>
 File: Figures/ApFigure02b.pdf Graphic file (type pdf)
 <use Figures/ApFigure02b.pdf>
 Package pdftex.def Info: Figures/ApFigure02b.pdf  used on input line 517.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<Figures/ApFigure02c.pdf, id=949, 433.62pt x 301.125pt>
+<Figures/ApFigure02c.pdf, id=922, 433.62pt x 301.125pt>
 File: Figures/ApFigure02c.pdf Graphic file (type pdf)
 <use Figures/ApFigure02c.pdf>
 Package pdftex.def Info: Figures/ApFigure02c.pdf  used on input line 518.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<Figures/ApFigure02d.pdf, id=950, 433.62pt x 301.125pt>
+<Figures/ApFigure02d.pdf, id=923, 433.62pt x 301.125pt>
 File: Figures/ApFigure02d.pdf Graphic file (type pdf)
 <use Figures/ApFigure02d.pdf>
 Package pdftex.def Info: Figures/ApFigure02d.pdf  used on input line 519.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
- [23]
-<Figures/ApFigure03a.pdf, id=968, 433.62pt x 289.08pt>
+ [24 <./Figures/ApFigure01.pdf>] [25 <./Figures/ApFigure02a.pdf> <./Figures/ApF
+igure02b.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/ApFigure02b.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./Figures/ApFigure02c.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/ApFigure02c.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./Figures/ApFigure02d.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/ApFigure02d.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+<Figures/ApFigure03a.pdf, id=1210, 433.62pt x 289.08pt>
 File: Figures/ApFigure03a.pdf Graphic file (type pdf)
 <use Figures/ApFigure03a.pdf>
 Package pdftex.def Info: Figures/ApFigure03a.pdf  used on input line 527.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure03b.pdf, id=969, 433.62pt x 289.08pt>
+<Figures/ApFigure03b.pdf, id=1211, 433.62pt x 289.08pt>
 File: Figures/ApFigure03b.pdf Graphic file (type pdf)
 <use Figures/ApFigure03b.pdf>
 Package pdftex.def Info: Figures/ApFigure03b.pdf  used on input line 528.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure03c.pdf, id=970, 433.62pt x 289.08pt>
+<Figures/ApFigure03c.pdf, id=1212, 433.62pt x 289.08pt>
 File: Figures/ApFigure03c.pdf Graphic file (type pdf)
 <use Figures/ApFigure03c.pdf>
 Package pdftex.def Info: Figures/ApFigure03c.pdf  used on input line 529.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure03d.pdf, id=971, 433.62pt x 289.08pt>
+<Figures/ApFigure03d.pdf, id=1213, 433.62pt x 289.08pt>
 File: Figures/ApFigure03d.pdf Graphic file (type pdf)
 <use Figures/ApFigure03d.pdf>
 Package pdftex.def Info: Figures/ApFigure03d.pdf  used on input line 530.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<Figures/ApFigure04a.pdf, id=980, 437.23979pt x 287.16283pt>
+<Figures/ApFigure04a.pdf, id=1222, 437.23979pt x 287.16283pt>
 File: Figures/ApFigure04a.pdf Graphic file (type pdf)
 <use Figures/ApFigure04a.pdf>
 Package pdftex.def Info: Figures/ApFigure04a.pdf  used on input line 539.
 (pdftex.def)             Requested size: 231.26378pt x 151.88446pt.
-<Figures/ApFigure04b.pdf, id=981, 433.62pt x 289.08pt>
+<Figures/ApFigure04b.pdf, id=1223, 433.62pt x 289.08pt>
 File: Figures/ApFigure04b.pdf Graphic file (type pdf)
 <use Figures/ApFigure04b.pdf>
 Package pdftex.def Info: Figures/ApFigure04b.pdf  used on input line 540.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
- [24 <./Figures/ApFigure01.pdf>] [25 <./Figures/ApFigure02a.pdf> <./Figures/ApF
-igure02b.pdf
+ [26 <./Figures/ApFigure03a.pdf> <./Figures/ApFigure03b.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure02b.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
-> <./Figures/ApFigure02c.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure02c.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
-> <./Figures/ApFigure02d.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure02d.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->] [26 <./Figures/ApFigure03a.pdf> <./Figures/ApFigure03b.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure03b.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/ApFigure03b.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
 > <./Figures/ApFigure03c.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure03c.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/ApFigure03c.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
 > <./Figures/ApFigure03d.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure03d.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Figures/ApFigure03d.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
 >] [27 <./Figures/ApFigure04a.pdf> <./Figures/ApFigure04b.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/ApFigure04b.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->] (./SomitasRD.bbl [28] [29]) [30]
+pdfTeX warning: pdflatex (file ./Figures/ApFigure04b.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [28] (./SomitasRD.bbl [29] [30]) [31]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 563.
  (./SomitasRD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 563.
@@ -718,38 +718,40 @@ Package rerunfilecheck Info: File `SomitasRD.out' has not changed.
 (rerunfilecheck)             Checksum: 99AE5DB02FC542298110EE2DCE3A4BCE;926.
  ) 
 Here is how much of TeX's memory you used:
- 9593 strings out of 483121
- 138610 string characters out of 5964354
- 429392 words of memory out of 5000000
- 24296 multiletter control sequences out of 15000+600000
- 543164 words of font info for 66 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
- 38i,16n,35p,2026b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/jesus/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600
-pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on SomitasRD.pdf (30 pages, 9429697 bytes).
+ 9585 strings out of 480906
+ 138508 string characters out of 5910772
+ 436099 words of memory out of 5000000
+ 24860 multiletter control sequences out of 15000+600000
+ 545914 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,16n,37p,2116b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on SomitasRD.pdf (31 pages, 9502649 bytes).
 PDF statistics:
- 1545 PDF objects out of 1728 (max. 8388607)
- 965 compressed objects within 10 object streams
- 128 named destinations out of 1000 (max. 500000)
+ 1515 PDF objects out of 1728 (max. 8388607)
+ 1001 compressed objects within 11 object streams
+ 129 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
