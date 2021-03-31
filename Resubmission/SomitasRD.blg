@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SomitasRD.aux
+The style file: ieeetr.bst
+Database file #1: SomitasRDNotes.bib
+Database file #2: ReactionDiffusion.bib
+You've used 30 entries,
+            1876 wiz_defined-function locations,
+            700 strings with 9084 characters,
+and the built_in function-call counts, 9656 in all, are:
+= -- 1042
+> -- 313
+< -- 0
++ -- 117
+- -- 87
+* -- 695
+:= -- 1300
+add.period$ -- 33
+call.type$ -- 30
+change.case$ -- 28
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 491
+empty$ -- 838
+format.name$ -- 87
+if$ -- 2379
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 33
+newline$ -- 96
+num.names$ -- 30
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 417
+stack$ -- 0
+substring$ -- 819
+swap$ -- 262
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 102
+width$ -- 32
+write$ -- 315
