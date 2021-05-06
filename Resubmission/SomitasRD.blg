@@ -4,44 +4,44 @@ The top-level auxiliary file: SomitasRD.aux
 The style file: ieeetr.bst
 Database file #1: SomitasRDNotes.bib
 Database file #2: ReactionDiffusion.bib
-You've used 30 entries,
+You've used 33 entries,
             1876 wiz_defined-function locations,
-            700 strings with 9084 characters,
-and the built_in function-call counts, 9656 in all, are:
-= -- 1042
-> -- 313
+            721 strings with 9943 characters,
+and the built_in function-call counts, 10600 in all, are:
+= -- 1125
+> -- 379
 < -- 0
-+ -- 117
-- -- 87
-* -- 695
-:= -- 1300
-add.period$ -- 33
-call.type$ -- 30
-change.case$ -- 28
++ -- 140
+- -- 107
+* -- 775
+:= -- 1444
+add.period$ -- 36
+call.type$ -- 33
+change.case$ -- 31
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 491
-empty$ -- 838
-format.name$ -- 87
-if$ -- 2379
+cite$ -- 33
+duplicate$ -- 537
+empty$ -- 902
+format.name$ -- 107
+if$ -- 2598
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 33
-newline$ -- 96
-num.names$ -- 30
-pop$ -- 49
+int.to.str$ -- 33
+missing$ -- 36
+newline$ -- 105
+num.names$ -- 33
+pop$ -- 54
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 417
+skip$ -- 457
 stack$ -- 0
-substring$ -- 819
-swap$ -- 262
+substring$ -- 859
+swap$ -- 287
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 102
-width$ -- 32
-write$ -- 315
+while$ -- 109
+width$ -- 35
+write$ -- 344

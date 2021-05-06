@@ -9,6 +9,12 @@ J.~Cooke and E.~Zeeman, ``A clock and wavefront model for control of the number
   of repeated structures during animal morphogenesis,'' {\em Journal of
   Theoretical Biology}, vol.~58, pp.~455--476, jan 1976.
 
+\bibitem{Schorter2012}
+C.~Schr\"{o}ter, S.~Ares, L.~G. Morelli, A.~Isakova, K.~Hens, D.~Soroldoni,
+  M.~Gajewski, F.~J\"{u}licher, S.~J. Maerkl, B.~Deplancke, and A.~C. Oates,
+  ``Topology and dynamics of the zebrafish segmentation clock core circuit,''
+  {\em {PLoS} Biology}, vol.~10, p.~e1001364, July 2012.
+
 \bibitem{Palmeirim1997}
 I.~Palmeirim, D.~Henrique, D.~Ish-Horowicz, and O.~Pourqui{\'{e}}, ``Avian
   hairy gene expression identifies a molecular clock linked to vertebrate
@@ -88,6 +94,12 @@ B.~Ermentrout, {\em Simulating, Analyzing, and Animating Dynamical Systems: A
   Tools)}.
 \newblock Society for Industrial and Applied Mathematics, 1987.
 
+\bibitem{Dunty2008}
+W.~C. Dunty, K.~K. Biris, R.~B. Chalamalasetty, M.~M. Taketo, M.~Lewandoski,
+  and T.~P. Yamaguchi, ``Wnt3a/$\beta$-catenin signaling controls posterior
+  body development by coordinating mesoderm formation and segmentation,'' {\em
+  Development}, vol.~135, pp.~85--94, Jan. 2008.
+
 \bibitem{Sawada2001}
 A.~Sawada, M.~Shinya, Y.~J. Jiang, A.~Kawakami, A.~Kuroiwa, and H.~Takeda,
   ``{Fgf/MAPK signalling is a crucial positional cue in somite boundary
@@ -114,6 +126,11 @@ S.~D. Hester, J.~M. Belmonte, J.~S. Gens, S.~G. Clendenon, and J.~A. Glazier,
   ``A multi-cell, multi-scale model of vertebrate segmentation and somite
   formation,'' {\em {PLoS} Computational Biology}, vol.~7, p.~e1002155, Oct.
   2011.
+
+\bibitem{JutrasDub2020}
+L.~Jutras-Dub{\'{e}}, E.~El-Sherif, and P.~Fran{\c{c}}ois, ``Geometric models
+  for robust encoding of dynamical information into embryonic patterns,'' {\em
+  {eLife}}, vol.~9, Aug. 2020.
 
 \bibitem{PantojaHernndez2021}
 J.~Pantoja-Hern{\'{a}}ndez, , and M.~Santill{\'{a}}n, ``Segmentation-clock

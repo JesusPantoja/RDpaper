@@ -220,11 +220,19 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.
 OUTPUT SomitasRD.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/textgreek/textgreek.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/textgreek/textgreek.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT SomitasRD.aux
 INPUT SomitasRD.aux
 OUTPUT SomitasRD.aux
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -307,6 +315,7 @@ INPUT Fig02c.pdf
 INPUT ./Fig02c.pdf
 INPUT ./Fig02c.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cbfonts/grmn1200.tfm
 INPUT Fig03a.pdf
 INPUT ./Fig03a.pdf
 INPUT ./Fig03a.pdf
@@ -422,5 +431,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
