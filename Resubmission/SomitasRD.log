@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.12.7)  6 MAY 2021 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.12.7)  12 MAY 2021 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,23 +894,23 @@ File: Fig01.pdf Graphic file (type pdf)
 Package pdftex.def Info: Fig01.pdf  used on input line 84.
 (pdftex.def)             Requested size: 144.54pt x 212.57227pt.
  [5 <./Fig01.pdf>] [6] [7]
-[8] [9] [10] [11]
-<Fig02a.pdf, id=276, 438.43173pt x 323.8844pt>
+[8] [9] [10]
+<Fig02a.pdf, id=264, 438.43173pt x 323.8844pt>
 File: Fig02a.pdf Graphic file (type pdf)
 <use Fig02a.pdf>
 Package pdftex.def Info: Fig02a.pdf  used on input line 248.
 (pdftex.def)             Requested size: 144.54pt x 106.7784pt.
-<Fig02b.pdf, id=277, 438.43173pt x 323.8844pt>
+<Fig02b.pdf, id=265, 438.43173pt x 323.8844pt>
 File: Fig02b.pdf Graphic file (type pdf)
 <use Fig02b.pdf>
 Package pdftex.def Info: Fig02b.pdf  used on input line 249.
 (pdftex.def)             Requested size: 144.54pt x 106.7784pt.
-<Fig02c.pdf, id=278, 438.43173pt x 323.8844pt>
+<Fig02c.pdf, id=266, 438.43173pt x 323.8844pt>
 File: Fig02c.pdf Graphic file (type pdf)
 <use Fig02c.pdf>
 Package pdftex.def Info: Fig02c.pdf  used on input line 250.
 (pdftex.def)             Requested size: 144.54pt x 106.7784pt.
- [12 <./Fig02a.pdf> <./Fig02b.pdf
+ [11] [12 <./Fig02a.pdf> <./Fig02b.pdf
 
 pdfTeX warning: pdflatex (file ./Fig02b.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
@@ -919,42 +919,41 @@ pdfTeX warning: pdflatex (file ./Fig02b.pdf): PDF inclusion: multiple pdfs with
 pdfTeX warning: pdflatex (file ./Fig02c.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
 >] [13]
-<Fig03a.pdf, id=397, 438.43173pt x 323.8844pt>
+<Fig03a.pdf, id=390, 438.43173pt x 323.8844pt>
 File: Fig03a.pdf Graphic file (type pdf)
 <use Fig03a.pdf>
 Package pdftex.def Info: Fig03a.pdf  used on input line 265.
 (pdftex.def)             Requested size: 144.54pt x 106.7784pt.
-<Fig03b.pdf, id=398, 438.43173pt x 323.8844pt>
+<Fig03b.pdf, id=391, 438.43173pt x 323.8844pt>
 File: Fig03b.pdf Graphic file (type pdf)
 <use Fig03b.pdf>
 Package pdftex.def Info: Fig03b.pdf  used on input line 266.
 (pdftex.def)             Requested size: 144.54pt x 106.7784pt.
- [14 <./Fig03a.pdf> <./Fig03b.pdf
-
-pdfTeX warning: pdflatex (file ./Fig03b.pdf): PDF inclusion: multiple pdfs with
- page group included in a single page
->]
-<Fig04a.pdf, id=464, 451.19818pt x 323.8844pt>
+<Fig04a.pdf, id=398, 451.19818pt x 323.8844pt>
 File: Fig04a.pdf Graphic file (type pdf)
 <use Fig04a.pdf>
 Package pdftex.def Info: Fig04a.pdf  used on input line 276.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Fig04b.pdf, id=465, 451.19818pt x 323.8844pt>
+<Fig04b.pdf, id=399, 451.19818pt x 323.8844pt>
 File: Fig04b.pdf Graphic file (type pdf)
 <use Fig04b.pdf>
 Package pdftex.def Info: Fig04b.pdf  used on input line 277.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Fig04c.pdf, id=466, 451.19818pt x 323.8844pt>
+<Fig04c.pdf, id=400, 451.19818pt x 323.8844pt>
 File: Fig04c.pdf Graphic file (type pdf)
 <use Fig04c.pdf>
 Package pdftex.def Info: Fig04c.pdf  used on input line 278.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Fig04d.pdf, id=467, 451.19818pt x 323.8844pt>
+<Fig04d.pdf, id=401, 451.19818pt x 323.8844pt>
 File: Fig04d.pdf Graphic file (type pdf)
 <use Fig04d.pdf>
 Package pdftex.def Info: Fig04d.pdf  used on input line 279.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
- [15 <./Fig04a.pdf> <./Fig04b.pdf
+ [14 <./Fig03a.pdf> <./Fig03b.pdf
+
+pdfTeX warning: pdflatex (file ./Fig03b.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>] [15 <./Fig04a.pdf> <./Fig04b.pdf
 
 pdfTeX warning: pdflatex (file ./Fig04b.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
@@ -967,12 +966,12 @@ pdfTeX warning: pdflatex (file ./Fig04c.pdf): PDF inclusion: multiple pdfs with
 pdfTeX warning: pdflatex (file ./Fig04d.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
 >]
-<Fig05a.pdf, id=592, 408.90364pt x 301.99792pt>
+<Fig05a.pdf, id=580, 408.90364pt x 301.99792pt>
 File: Fig05a.pdf Graphic file (type pdf)
 <use Fig05a.pdf>
 Package pdftex.def Info: Fig05a.pdf  used on input line 294.
 (pdftex.def)             Requested size: 216.81pt x 160.12724pt.
-<Fig05b.pdf, id=593, 408.90364pt x 301.99792pt>
+<Fig05b.pdf, id=581, 408.90364pt x 301.99792pt>
 File: Fig05b.pdf Graphic file (type pdf)
 <use Fig05b.pdf>
 Package pdftex.def Info: Fig05b.pdf  used on input line 295.
@@ -982,28 +981,28 @@ Package pdftex.def Info: Fig05b.pdf  used on input line 295.
 pdfTeX warning: pdflatex (file ./Fig05b.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
 >]
-<Fig06.pdf, id=653, 415.79976pt x 286.25319pt>
+<Fig06.pdf, id=640, 415.79976pt x 286.25319pt>
 File: Fig06.pdf Graphic file (type pdf)
 <use Fig06.pdf>
 Package pdftex.def Info: Fig06.pdf  used on input line 308.
 (pdftex.def)             Requested size: 216.81pt x 149.25871pt.
-<Fig07a.pdf, id=654, 451.19818pt x 323.8844pt>
+<Fig07a.pdf, id=641, 451.19818pt x 323.8844pt>
 File: Fig07a.pdf Graphic file (type pdf)
 <use Fig07a.pdf>
 Package pdftex.def Info: Fig07a.pdf  used on input line 315.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Fig07b.pdf, id=655, 451.19818pt x 323.8844pt>
+<Fig07b.pdf, id=642, 451.19818pt x 323.8844pt>
 File: Fig07b.pdf Graphic file (type pdf)
 <use Fig07b.pdf>
 Package pdftex.def Info: Fig07b.pdf  used on input line 316.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
-<Fig07c.pdf, id=656, 451.19818pt x 323.8844pt>
+<Fig07c.pdf, id=643, 451.19818pt x 323.8844pt>
 File: Fig07c.pdf Graphic file (type pdf)
 <use Fig07c.pdf>
 Package pdftex.def Info: Fig07c.pdf  used on input line 317.
 (pdftex.def)             Requested size: 144.54pt x 103.75385pt.
  [18 <./Fig06.pdf>]
-<Fig08.pdf, id=692, 406.6274pt x 286.25319pt>
+<Fig08.pdf, id=677, 406.6274pt x 286.25319pt>
 File: Fig08.pdf Graphic file (type pdf)
 <use Fig08.pdf>
 Package pdftex.def Info: Fig08.pdf  used on input line 326.
@@ -1017,27 +1016,27 @@ pdfTeX warning: pdflatex (file ./Fig07b.pdf): PDF inclusion: multiple pdfs with
 pdfTeX warning: pdflatex (file ./Fig07c.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
 >] [20 <./Fig08.pdf>]
-<ApFigure01a.pdf, id=797, 526.37596pt x 341.43306pt>
+<ApFigure01a.pdf, id=783, 526.37596pt x 341.43306pt>
 File: ApFigure01a.pdf Graphic file (type pdf)
 <use ApFigure01a.pdf>
 Package pdftex.def Info: ApFigure01a.pdf  used on input line 367.
 (pdftex.def)             Requested size: 216.81pt x 140.63446pt.
-<ApFigure01b.pdf, id=798, 355.65945pt x 270.3012pt>
+<ApFigure01b.pdf, id=784, 355.65945pt x 270.3012pt>
 File: ApFigure01b.pdf Graphic file (type pdf)
 <use ApFigure01b.pdf>
 Package pdftex.def Info: ApFigure01b.pdf  used on input line 368.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<ApFigure01c.pdf, id=799, 355.65945pt x 270.3012pt>
+<ApFigure01c.pdf, id=785, 355.65945pt x 270.3012pt>
 File: ApFigure01c.pdf Graphic file (type pdf)
 <use ApFigure01c.pdf>
 Package pdftex.def Info: ApFigure01c.pdf  used on input line 369.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<ApFigure01d.pdf, id=800, 355.65945pt x 270.3012pt>
+<ApFigure01d.pdf, id=786, 355.65945pt x 270.3012pt>
 File: ApFigure01d.pdf Graphic file (type pdf)
 <use ApFigure01d.pdf>
 Package pdftex.def Info: ApFigure01d.pdf  used on input line 370.
 (pdftex.def)             Requested size: 144.54pt x 109.85083pt.
-<ApFigure01e.pdf, id=801, 355.65945pt x 270.3012pt>
+<ApFigure01e.pdf, id=787, 355.65945pt x 270.3012pt>
 File: ApFigure01e.pdf Graphic file (type pdf)
 <use ApFigure01e.pdf>
 Package pdftex.def Info: ApFigure01e.pdf  used on input line 371.
@@ -1058,28 +1057,29 @@ pdfTeX warning: pdflatex (file ./ApFigure01d.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex (file ./ApFigure01e.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->] [23] [24] [25]
-<ApFigure01.pdf, id=964, 617.42479pt x 273.14645pt>
+>] [23] [24]
+<ApFigure01.pdf, id=935, 617.42479pt x 273.14645pt>
 File: ApFigure01.pdf Graphic file (type pdf)
 <use ApFigure01.pdf>
 Package pdftex.def Info: ApFigure01.pdf  used on input line 475.
 (pdftex.def)             Requested size: 361.34999pt x 159.86296pt.
-<ApFigure02a.pdf, id=965, 433.62pt x 301.125pt>
+ [25]
+<ApFigure02a.pdf, id=950, 433.62pt x 301.125pt>
 File: ApFigure02a.pdf Graphic file (type pdf)
 <use ApFigure02a.pdf>
 Package pdftex.def Info: ApFigure02a.pdf  used on input line 481.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<ApFigure02b.pdf, id=966, 433.62pt x 301.125pt>
+<ApFigure02b.pdf, id=951, 433.62pt x 301.125pt>
 File: ApFigure02b.pdf Graphic file (type pdf)
 <use ApFigure02b.pdf>
 Package pdftex.def Info: ApFigure02b.pdf  used on input line 482.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<ApFigure02c.pdf, id=967, 433.62pt x 301.125pt>
+<ApFigure02c.pdf, id=952, 433.62pt x 301.125pt>
 File: ApFigure02c.pdf Graphic file (type pdf)
 <use ApFigure02c.pdf>
 Package pdftex.def Info: ApFigure02c.pdf  used on input line 483.
 (pdftex.def)             Requested size: 231.26378pt x 160.60173pt.
-<ApFigure02d.pdf, id=968, 433.62pt x 301.125pt>
+<ApFigure02d.pdf, id=953, 433.62pt x 301.125pt>
 File: ApFigure02d.pdf Graphic file (type pdf)
 <use ApFigure02d.pdf>
 Package pdftex.def Info: ApFigure02d.pdf  used on input line 484.
@@ -1097,35 +1097,35 @@ pdfTeX warning: pdflatex (file ./ApFigure02c.pdf): PDF inclusion: multiple pdfs
 pdfTeX warning: pdflatex (file ./ApFigure02d.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
 >]
-<ApFigure03a.pdf, id=1259, 433.62pt x 289.08pt>
+<ApFigure03a.pdf, id=1244, 433.62pt x 289.08pt>
 File: ApFigure03a.pdf Graphic file (type pdf)
 <use ApFigure03a.pdf>
 Package pdftex.def Info: ApFigure03a.pdf  used on input line 494.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<ApFigure03b.pdf, id=1260, 433.62pt x 289.08pt>
+<ApFigure03b.pdf, id=1245, 433.62pt x 289.08pt>
 File: ApFigure03b.pdf Graphic file (type pdf)
 <use ApFigure03b.pdf>
 Package pdftex.def Info: ApFigure03b.pdf  used on input line 495.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<ApFigure03c.pdf, id=1261, 433.62pt x 289.08pt>
+<ApFigure03c.pdf, id=1246, 433.62pt x 289.08pt>
 File: ApFigure03c.pdf Graphic file (type pdf)
 <use ApFigure03c.pdf>
 Package pdftex.def Info: ApFigure03c.pdf  used on input line 496.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<ApFigure03d.pdf, id=1262, 433.62pt x 289.08pt>
+<ApFigure03d.pdf, id=1247, 433.62pt x 289.08pt>
 File: ApFigure03d.pdf Graphic file (type pdf)
 <use ApFigure03d.pdf>
 Package pdftex.def Info: ApFigure03d.pdf  used on input line 497.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
-<ApFigure04a.pdf, id=1271, 437.23979pt x 287.16283pt>
+<ApFigure04a.pdf, id=1254, 437.23979pt x 287.16283pt>
 File: ApFigure04a.pdf Graphic file (type pdf)
 <use ApFigure04a.pdf>
-Package pdftex.def Info: ApFigure04a.pdf  used on input line 506.
+Package pdftex.def Info: ApFigure04a.pdf  used on input line 504.
 (pdftex.def)             Requested size: 231.26378pt x 151.88446pt.
-<ApFigure04b.pdf, id=1272, 433.62pt x 289.08pt>
+<ApFigure04b.pdf, id=1255, 433.62pt x 289.08pt>
 File: ApFigure04b.pdf Graphic file (type pdf)
 <use ApFigure04b.pdf>
-Package pdftex.def Info: ApFigure04b.pdf  used on input line 507.
+Package pdftex.def Info: ApFigure04b.pdf  used on input line 505.
 (pdftex.def)             Requested size: 231.26378pt x 154.17767pt.
  [28] [29 <./ApFigure03a.pdf> <./ApFigure03b.pdf
 
@@ -1144,19 +1144,19 @@ pdfTeX warning: pdflatex (file ./ApFigure03d.pdf): PDF inclusion: multiple pdfs
 pdfTeX warning: pdflatex (file ./ApFigure04b.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
 >] (./SomitasRD.bbl [31] [32]) [33]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
  (./SomitasRD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 530.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 530.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 526.
 Package rerunfilecheck Info: File `SomitasRD.out' has not changed.
 (rerunfilecheck)             Checksum: 99AE5DB02FC542298110EE2DCE3A4BCE;926.
  ) 
 Here is how much of TeX's memory you used:
- 21489 strings out of 480906
- 392070 string characters out of 5910772
- 652432 words of memory out of 5000000
- 36514 multiletter control sequences out of 15000+600000
- 546602 words of font info for 72 fonts, out of 8000000 for 9000
+ 21486 strings out of 480906
+ 392036 string characters out of 5910772
+ 653138 words of memory out of 5000000
+ 36512 multiletter control sequences out of 15000+600000
+ 546434 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,16n,83p,2185b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
@@ -1179,14 +1179,13 @@ type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
 ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on SomitasRD.pdf (33 pages, 9518623 bytes).
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on SomitasRD.pdf (33 pages, 9501326 bytes).
 PDF statistics:
- 1567 PDF objects out of 1728 (max. 8388607)
- 1036 compressed objects within 11 object streams
+ 1544 PDF objects out of 1728 (max. 8388607)
+ 1020 compressed objects within 11 object streams
  132 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 
